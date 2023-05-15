@@ -8,3 +8,6 @@ Vale lembrar que o projeto não possui fins lucrativos e apenas educacional.
 <li>Raíssa Morais dos Santos</li>
 <li>Vítor Souza Dourado</li>
 
+### Docente:
+<li>Thiago Miranda</li>
+<a href="https://github.com/mirandathiago">GitHub Thiago Miranda</a>
