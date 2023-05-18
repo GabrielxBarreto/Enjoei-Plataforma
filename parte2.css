@@ -22,10 +22,21 @@ body {
             box-sizing: border-box;
             
         }
-        span{
-            margin-left:200px;
+        #user{
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            margin-right:110px;
         }
-	
+        #user h3{
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+	#hi2inicial{
+        margin-top: 20px;
+    }
 	
 	 nav {
         justify-content: center;
@@ -35,13 +46,16 @@ body {
             padding: 10px 20px;
             
         }
-		
-        .logo {
-            display: flex;
-            align-items: center;
-            margin-right:120px;       
-            height: 30px;
-            margin-right: 10px;
+		#conta{margin-left: 200px;
+            width: 50px;
+            height: 50px;
+        } 
+        .logo{
+            margin-right: 25px;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            
         }
 		
 		  .search-form {
