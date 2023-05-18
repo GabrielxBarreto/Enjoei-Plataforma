@@ -5,11 +5,13 @@
 
 }
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-			box-sizing:border-box;
-			 background: linear-gradient(#f9d8b1, #c8b88e);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	box-sizing:border-box;
+	background: linear-gradient(#f9d8b1, #c8b88e);
         }
         
         
@@ -143,7 +145,14 @@ body {
             flex-wrap: wrap;
 			
         }
-
+        footer{
+            margin-top: 250px;
+            background-color: #333;
+            font-size: 24px;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
         .grid-item {
             width:180px;
             height:180px;
