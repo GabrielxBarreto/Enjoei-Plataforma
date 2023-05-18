@@ -1,3 +1,9 @@
+<?php
+    require "./estoque/estoque_Acessorios.php";
+    require "./estoque/estoque_Blusas.php";
+    require "./estoque/estoque_Sapatos.php";
+    require "./estoque/estoque_Calcas.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,19 +48,19 @@
    
     
     <div class="grid-container">
-	
-            <div class="grid-item1">quadro1</div>
-            <div class="grid-item2">quadro 2</div>
-            <div class="grid-item3">quadro 3</div>
-            <div class="grid-item4">quador4</div>
-            <div class="grid-item5">quadro5</div>
-            <div class="grid-item6">quadro6</div>
-            <div class="grid-item7">quadro 7</div>
-            <div class="grid-item8">quadro8</div>
-            <div class="grid-item9">quador9</div>
-            
-
-			
+    <?php
+            $i = 0;
+            foreach($acessorios as $key => $auxiliar_acessorios){
+                if($i <= 8){
+                    $i++;
+                echo "<div class='grid-item{$i}'><img src={$auxiliar_acessorios["img"]}'></img></div>";
+                }else{
+                    break;
+                }
+                
+            }       
+        
+        ?>	
         </div>
 
         <div class="marca">
