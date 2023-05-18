@@ -1,14 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
 body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
 			box-sizing:border-box;
-			 background: linear-gradient(#ffe4c4, #c6b792);
+			 background: linear-gradient(#f9d8b1, #c8b88e);
         }
         
         
         header {
-            background: linear-gradient(#ffe4c4, #c6b792, #c6b792);
+            background: transparent;
             padding: 20px;
             width: 100%;
             box-sizing: border-box;
@@ -20,10 +26,10 @@ body {
 	
 	
 	 nav {
-            
+        justify-content: center;
             display: flex;
             align-items: center;
-            background-color: #ffe4c4;
+            background-color:transparent;
             padding: 10px 20px;
             
         }
@@ -57,44 +63,92 @@ body {
 		
 		
 		.container {
+            width: 100%;
 			  margin: auto;
-			  width:300px;
 			  height:350px;
 			  display:flex;
-			  justify-content:space-around;
+              justify-content: center;
+             
 		}
-		
-		
+        .detalhes{
+            margin-left: 10px;
+            background-color: #fff;
+            padding: 20px;
+            width:50%;
+            display:flex;
+            align-items: column;
+            flex-direction: column;
+        }
+		#texto{
+
+            display: flex;
+            flex-direction: row;
+        }
+		#botoesPrincipais{
+            display: flex;
+        }
+        #botoesPrincipais button{
+            color:#2B2929;
+            text-align: center;
+            margin-top: 150px;
+        }
+        #aux{
+            width: 100%;
+            margin-top: 15px;
+        }
 		
 		.container button{
-			 width:80px;
+            font-size: large;
+			 width:250px;
 			  height:65px;
-			  margin: auto;
+              margin-top: auto;
+			  margin-left: 25px;
+			  margin-right: 25px;
 			  background: linear-gradient(#ffe4c4, #c6b792);
 			   border: none;
             color: #fff;
 		}
-		
+		.container p{
+            display: flex;
+        }
 		.botao{
+            display:flex ;
 			background: white;
-			 width:150px;
+			 width: 1205px;
 			 height:100px;
-			 margin: auto;
-			
-			 
+             margin:auto;
+			  
+		}
+        #searchbar{
+            max-width:350px;
+            min-width:150px;
+        }
+        .botao button{
+            font-size: large;
+            padding: 10px;
+            height:55px;
+            margin:auto;
+            background: linear-gradient(#ffe4c4, #c6b792);
+            border: none;
+            color: #2B2929;
 		}
 		
-	 .grid-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr) 1fr;
-            gap: 20px;
-            max-width: 250px;
-            margin: 0 auto;
-            padding: 20px;
+		
+	 .flex-container {
+        margin: 20px auto;
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
 			
         }
 
         .grid-item {
+            width:180px;
+            height:180px;
+            margin-left: 5px;
+            margin-bottom: 5px;
             border: 1px solid #ccc;
             padding: 20px;
             background-color: #FFF8DC;
