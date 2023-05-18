@@ -151,7 +151,7 @@ body {
 		
 		
 	 .flex-container {
-        margin: 20px auto;
+			margin: 20px auto;
             width: 60%;
             display: flex;
             justify-content: center;
@@ -170,11 +170,12 @@ body {
         .grid-item {
             width:180px;
             height:180px;
-            margin-left: 5px;
-            margin-bottom: 5px;
+            margin-left: 20px;
+            margin-bottom:20px;
             border: 1px solid #ccc;
             padding: 20px;
             background-color: #FFF8DC;
+			
         }
 
 		   .t {
@@ -186,5 +187,11 @@ body {
             background-color: #FFF8DC;
           
         }
-	 
+		
+		h2{
+			font-size: 40px;
+            display: flex;
+            justify-content: center;
+           
+		}
 	
