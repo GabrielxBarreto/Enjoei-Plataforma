@@ -7,7 +7,7 @@ $acessorios =  [
         "condicao"=>"novo",
         "descricao" => "bracelete pandora prata 925 tamanho 19",
         "pecasEmEstoque" => 53,
-        "img" => "img_produtos/braceleterigido.jpg",
+        "img" => "../img_produtos/braceleterigido.jpg",
         "marca" => "pandora"
     ],
     [

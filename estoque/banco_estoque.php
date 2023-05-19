@@ -1,9 +1,8 @@
 <?php
-
-    include "estoque_Blusas.php";
-    include "estoque_Calcas.php";
-    include "estoque_Acessorios.php";
-    include "estoque_Sapatos.php";
+    require "/estoque/estoque_Acessorios.php";
+    require "/estoque/estoque_Blusas.php";
+    require "/estoque/estoque_Calcas.php";
+    require "/estoque/estoque_Sapatos.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">

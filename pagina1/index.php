@@ -1,8 +1,8 @@
 <?php
-    require "./estoque/estoque_Acessorios.php";
-    require "./estoque/estoque_Blusas.php";
-    require "./estoque/estoque_Sapatos.php";
-    require "./estoque/estoque_Calcas.php";
+    require "/estoque/estoque_Acessorios.php";
+    require "/estoque/estoque_Blusas.php";
+    require "/estoque/estoque_Calcas.php";
+    require "/estoque/estoque_Sapatos.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <a href="/estoque/estoque_Acessorios.php"></a>
     <header>
         <nav>
             <div class="logo">
