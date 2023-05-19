@@ -74,7 +74,16 @@
         <div class="maisvendidos">
         <p>MAIS VENDIDOS</p>
     </div>
-   
+    <div class="container-vendidos"> 
+        <div class="item1">quadro 1 </div>
+        <div class="item2">quadro 2 </div>
+        <div class="item3">quadro 3 </div>
+        <div class="item4">quadro 4 </div>
+        <div class="item5">quadro 5 </div>
+        <div class="item6">quadro 6 </div>
+        <div class="item7">quadro 7 </div>
+    </div> 
+    <div class="recomendados"><p>RECOMENDADOS </p> </div>
 
 
 
