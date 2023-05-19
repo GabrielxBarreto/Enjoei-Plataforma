@@ -1,8 +1,8 @@
 <?php
-    require "/estoque/estoque_Acessorios.php";
-    require "/estoque/estoque_Blusas.php";
-    require "/estoque/estoque_Calcas.php";
-    require "/estoque/estoque_Sapatos.php";
+    require "../estoque/estoque_Acessorios.php";
+    require "../estoque/estoque_Blusas.php";
+    require "../estoque/estoque_Calcas.php";
+    require "../estoque/estoque_Sapatos.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -53,14 +53,19 @@
             $i = 0;
             foreach($acessorios as $key => $auxiliar_acessorios){
                 if($i <= 8){
+                    if($i == 3){
+                        echo "<div class='grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></div>";
+                    }else if($i == 6){
+                        echo "<div class='grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></div>";
+                    }else if($i == 8){
+                        echo "<div class='grid-item{$i}'><img width='300' height='470' src={$auxiliar_acessorios["img"]}></img></div>";
+                    }
                     $i++;
-                echo "<div class='grid-item{$i}'><img src={$auxiliar_acessorios["img"]}'></img></div>";
+                echo "<div class='grid-item{$i}'><img width='200' height='200' src={$auxiliar_acessorios["img"]}></img></div>";
                 }else{
                     break;
-                }
-                
-            }       
-        
+                }    
+            }    
         ?>	
         </div>
 
@@ -77,7 +82,7 @@
     <div class="container-vendidos"> 
         <div class="item1">quadro 1 </div>
         <div class="item2">quadro 2 </div>
-        <div class="item3">quadro 3 </div>
+        <div class="item3">quadro 3* </div>
         <div class="item4">quadro 4 </div>
         <div class="item5">quadro 5 </div>
         <div class="item6">quadro 6 </div>
@@ -89,7 +94,7 @@
 
 
 </main>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <footer>
     <p>© 2023 Venda de produtos. Todos os direitos reservados.</p>
 </footer>
