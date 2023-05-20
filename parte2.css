@@ -16,16 +16,15 @@ body {
         
         
         header {
+            display:flex;
+            justify-content: center;
+            align-items: center;
             background: transparent;
             padding: 20px;
             width: 100%;
             box-sizing: border-box;
             
         }
-
-
-	
-	
 	 nav {
         justify-content: center;
             display: flex;
@@ -34,18 +33,11 @@ body {
             padding: 10px 20px;
             
         }
-		#conta{margin-left: 200px;
+		#conta{
+            margin-left: 200px;
             width: 50px;
             height: 50px;
-        } 
-        .logo{
-            margin-right: 25px;
-            border-radius: 50%;
-            height: 80px;
-            width: 80px;
-            
-        }
-		
+        } 	
 		  .search-form {
             display: flex;
 		  }
@@ -189,3 +181,4 @@ body {
             width: 100%;
             margin: auto;
         }
+        
