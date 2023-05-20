@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -26,7 +31,6 @@ header {
     justify-content: center;
     align-items: center;
     background: linear-gradient(#ffe4c4, #c6b792, #c6b792);
-    padding: 15px;
     width: 100%;
     box-sizing: border-box;
     
@@ -175,6 +179,7 @@ grid-row: 3/5;
 grid-row: 4/5; 
 }
 .banner{
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,15 +237,13 @@ main {
     justify-content:center;
     margin:auto;
     margin-bottom:0;
-    
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     box-shadow: 0 7px 10px rgba(1, 0, 2, 0.1);
     transition: box-shadow 0.3s ease;
     
 }
 .product:hover {
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
 }
 section{ 
     display:flex;

@@ -5,9 +5,10 @@ require "../estoque/estoque_Calcas.php";
 require "../estoque/estoque_Sapatos.php";
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
+    
     <title>Venda de produtos</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -27,7 +28,7 @@ require "../estoque/estoque_Sapatos.php";
             <img id="conta" src="../simbolocompras.png" alt="userIcon" srcset="">
         </nav>
     </header>
-
+    <br>
     <div class="banner">
         <img id="banner_img" src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/Ilustra%C3%A7%C3%A3o-50-de-Desconto-PNG.png" alt="banner">
     </div><br>
