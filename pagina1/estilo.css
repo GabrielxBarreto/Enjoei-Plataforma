@@ -21,6 +21,7 @@ body {
     height: 60px;
 }
 header {
+    position:fixed;
     display: flex;
     justify-content: center;
     align-items: center;
