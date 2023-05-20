@@ -59,7 +59,7 @@ require "../estoque/estoque_Sapatos.php";
             <?php
             $i = 0;
             foreach ($acessorios as $key => $auxiliar_acessorios) {
-                if ($i <= 9) {
+                if ($i <= 8) {
                     if ($i == 3) {
                         echo "<div class='grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></div>";
                     } else if ($i == 6) {
