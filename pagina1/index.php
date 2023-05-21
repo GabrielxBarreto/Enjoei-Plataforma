@@ -26,7 +26,9 @@ require "../estoque/estoque_Sapatos.php";
                 <input name="item" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
             </form>
+            </form>
             <img id="conta" src="../usuarioicone.png" alt="userIcon" srcset="">
+            <img id="conta" src="../roupaicon.png" alt="userIcon" srcset="">
             <img id="conta" src="../simbolocompras.png" alt="userIcon" srcset="">
         </nav>
     </header>
@@ -123,7 +125,7 @@ require "../estoque/estoque_Sapatos.php";
     </main>
 
     <footer>
-        <a href="pesquisa.php">ok</a>
+        <a href="../1.html">ok</a>
         <p>© 2023 Venda de produtos. Todos os direitos reservados.</p>
     </footer>
 </body>
