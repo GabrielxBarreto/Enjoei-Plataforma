@@ -8,20 +8,22 @@ require "../estoque/estoque_Sapatos.php";
 <html lang="pt-br">
 
 <head>
-    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venda de produtos</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <a href="/estoque/estoque_Acessorios.php"></a>
+    
     <header>
         <nav>
             <div class="logo">
                 <img id="logo" src="../breshoplogo.png" alt="Logo da empresa">
             </div>
-            <form class="search-form">
-                <input type="text" placeholder="Pesquisar">
+            <form  method = "get" action ="pesquisa.php" class="search-form">
+                <input name="item" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
             </form>
             <img id="conta" src="../usuarioicone.png" alt="userIcon" srcset="">
@@ -121,6 +123,7 @@ require "../estoque/estoque_Sapatos.php";
     </main>
 
     <footer>
+        <a href="pesquisa.php">ok</a>
         <p>© 2023 Venda de produtos. Todos os direitos reservados.</p>
     </footer>
 </body>
