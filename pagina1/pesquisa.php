@@ -38,7 +38,7 @@ if(!isset($_GET["item"])){
     <header>
         <nav>
             <div class="logo">
-                <img id="logo" src="../breshoplogo.png" alt="Logo da empresa">
+            <a href="index.php"><img id="logo" src="../assets/breshoplogo.png" alt="Logo da empresa"></a>
             </div>
             <form method="get" action="pesquisa.php" class="search-form">
                 <input required name="item" type="text" placeholder="Pesquisar">
