@@ -13,32 +13,43 @@ body {
 	box-sizing:border-box;
 	background: linear-gradient(#f9d8b1, #c8b88e);
         }
-        
-        
+
+
         header {
-            display:flex;
-            justify-content: center;
-            align-items: center;
             background: transparent;
             padding: 20px;
             width: 100%;
             box-sizing: border-box;
-            
+
         }
+
+
+
+
 	 nav {
         justify-content: center;
             display: flex;
             align-items: center;
             background-color:transparent;
             padding: 10px 20px;
-            
+
         }
-		#conta{
-            transition: all ease-in .25s;
-            margin-left: 200px;
-            width: 50px;
-            height: 50px;
-        }	
+
+#conta{
+    transition: all ease-in .25s;
+    margin-left: 200px;
+    width: 50px;
+    height: 50px;
+}	
+        .logo{
+            margin-right: 25px;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+
+        
+
+        }
 		  .search-form {
             display: flex;
 		  }
@@ -57,6 +68,7 @@ body {
             margin-left: 8px;
             background-color: #333;
         }
+
         .logo{
             margin-right: 25px;
             border-radius: 50%;
@@ -66,13 +78,14 @@ body {
         }
 		
 		
+
 		.container {
             width: 85%;
 			  margin: auto;
 			  height:350px;
 			  display:flex;
               justify-content: center;
-             
+
 		}
         .detalhes{
             margin-left: 10px;
@@ -100,7 +113,7 @@ body {
             width: 85%;
             margin: 15px auto;
         }
-		
+
 		.container button{
             cursor: pointer;
             font-size: large;
@@ -122,7 +135,7 @@ body {
 			 width: 85%;
 			 height: 15rem;
              margin:auto;
-			  
+
 		}
         #searchbar{
             width:300px;
@@ -136,8 +149,8 @@ body {
             border: none;
             color: #2B2929;
 		}
-		
-		
+
+
 	 .flex-container {
 			margin: 20px auto;
             width: 60%;
@@ -145,7 +158,7 @@ body {
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-			
+
         }
         footer{
             margin-top: 250px;
@@ -163,24 +176,24 @@ body {
             border: 1px solid #ccc;
             padding: 20px;
             background-color: #FFF8DC;
-			
+
         }
 
 		   .t {
-           
+
             max-width: 300px;
 			height: 30px;
             margin: 0 auto;
             padding: 20px;
             background-color: #FFF8DC;
-          
+
         }
-		
+
 		h2{
 			font-size: 40px;
             display: flex;
             justify-content: center;
-           
+
 		}
         #h2inicial{
             margin-top: 30px;
@@ -193,3 +206,4 @@ body {
             width:60px ;
             height:60px ;
         }
+

@@ -8,10 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="parte2.css">
-
+    <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
     <header>
         <nav>
@@ -59,7 +57,6 @@
     <h2 id="#h2inicial">Outros produtos</h2>
     <br>
     <div class="flex-container">
-
         <div class="grid-item"> </div>
         <div class="grid-item"> </div>
         <div class="grid-item"> </div>
@@ -77,7 +74,6 @@
     <br>
     <h2>Outros produtos</h2>
     <div class="flex-container">
-
         <div class="grid-item"> </div>
         <div class="grid-item"> </div>
         <div class="grid-item"> </div>
@@ -95,7 +91,6 @@
     <br>
     <h2>Outros produtos</h2>
     <div class="flex-container">
-
         <div class="grid-item"> </div>
         <div class="grid-item"> </div>
         <div class="grid-item"> </div>
@@ -113,7 +108,5 @@
     <footer>
         © 2023 Venda de produtos. Todos os direitos reservados.
     </footer>
-
 </body>
-
 </html>
