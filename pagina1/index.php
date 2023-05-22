@@ -23,7 +23,7 @@ require "../estoque/estoque_Sapatos.php";
                 <img id="logo" src="../breshoplogo.png" alt="Logo da empresa">
             </div>
             <form  method = "get" action ="pesquisa.php" class="search-form">
-                <input name="item" type="text" placeholder="Pesquisar">
+                <input required name="item" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
             </form>
             </form>

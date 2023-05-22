@@ -514,3 +514,7 @@ box-sizing: border-box;
     margin-top: 25px;
     margin-bottom: 25px;
 }
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

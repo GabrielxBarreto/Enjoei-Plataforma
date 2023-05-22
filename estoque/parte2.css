@@ -30,11 +30,10 @@ nav {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    margin-right:120px;       
-    height: 30px;
-    margin-right: 10px;
+    margin-right: 25px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
   .search-form {
@@ -111,3 +110,7 @@ nav {
   
 }
 
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
