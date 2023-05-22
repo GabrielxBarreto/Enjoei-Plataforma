@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav>
-        <a href="../pagina1/index.php"><img id="logo" src="../assets/breshoplogo.png" alt="Logo da empresa"></a>
+        <a href="../pagina1/index.php"><img id="logo" src="../assets/breshoplogo.png" alt="Logo da empresa"></a>7
             <form class="search-form">
                 <input required id="searchbar" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
