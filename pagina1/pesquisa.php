@@ -44,9 +44,9 @@ if(!isset($_GET["item"])){
                 <input required name="item" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
             </form>
-            <img id="conta" src="../usuarioicone.png" alt="userIcon" srcset="">
-            <img id="conta" src="../roupaicon.png" alt="userIcon" srcset="">
-            <img id="conta" src="../simbolocompras.png" alt="userIcon" srcset="">
+            <a href="#"><img id="conta" src="../usuarioicone.png" alt="userIcon" srcset=""></a>
+            <a href="#"><img id="conta" src="../roupaicon.png" alt="userIcon" srcset=""></a>
+            <a href="#"><img id="conta" src="../simbolocompras.png" alt="userIcon" srcset=""></a>
         </nav>
     </header>
     <section>
