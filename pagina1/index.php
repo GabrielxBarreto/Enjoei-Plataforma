@@ -20,16 +20,16 @@ require "../estoque/estoque_Sapatos.php";
     <header>
         <nav>
             <div class="logo">
-                <img id="logo" src="../breshoplogo.png" alt="Logo da empresa">
+                <img id="logo" src="../assets/breshoplogo.png" alt="Logo da empresa">
             </div>
             <form  method = "get" action ="pesquisa.php" class="search-form">
                 <input required name="item" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
             </form>
             </form>
-            <a href="#"><img id="conta" src="../usuarioicone.png" alt="userIcon" srcset=""></a>
-            <a href="#"><img id="conta" src="../roupaicon.png" alt="userIcon" srcset=""></a>
-            <a href="#"><img id="conta" src="../simbolocompras.png" alt="userIcon" srcset=""></a>
+            <a href="#"><img id="conta" src="../assets/usuarioicone.png" alt="userIcon" srcset=""></a>
+            <a href="#"><img id="conta" src="../assets/roupaicon.png" alt="userIcon" srcset=""></a>
+            <a href="#"><img id="conta" src="../assets/simbolocompras.png" alt="userIcon" srcset=""></a>
         </nav>
     </header>
     <br>
@@ -125,7 +125,7 @@ require "../estoque/estoque_Sapatos.php";
     </main>
 
     <footer>
-        <a href="../1.html">ok</a>
+        <a href="../pagina2/recebido.php">ok</a>
         <p>© 2023 Venda de produtos. Todos os direitos reservados.</p>
     </footer>
 </body>

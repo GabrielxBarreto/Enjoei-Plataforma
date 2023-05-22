@@ -13,13 +13,13 @@
 <body>
     <header>
         <nav>
-            <img class="logo" src="breshoplogo.png" alt="Logo da empresa">
+            <img class="logo" src="../assets/breshoplogo.png" alt="Logo da empresa">
             <form class="search-form">
                 <input required id="searchbar" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
-                <a href="#"></a><img id="conta" src="usuarioicone.png" alt="userIcon" srcset=""></a>
-                <a href="#"></a><img id="conta" src="roupaicon.png" alt="userIcon" srcset=""></a>
-                <a href="#"></a><img id="conta" src="simbolocompras.png" alt="userIcon" srcset=""></a>
+                <a href="#"></a><img id="conta" src="../assets/usuarioicone.png" alt="userIcon" srcset=""></a>
+                <a href="#"></a><img id="conta" src="../assets/roupaicon.png" alt="userIcon" srcset=""></a>
+                <a href="#"></a><img id="conta" src="../assets/simbolocompras.png" alt="userIcon" srcset=""></a>
                     
             </form>
         </nav>
