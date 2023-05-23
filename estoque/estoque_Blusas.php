@@ -191,6 +191,7 @@ $blusas =  [
         "img" => "../img_produtos/atackontitanblusa.jpg",
         "marca" => "dattebayo"
     ],
+    //apartir daqui.....
     [
         "nome" => "nome_5",
         "preco"=> 1.0,
