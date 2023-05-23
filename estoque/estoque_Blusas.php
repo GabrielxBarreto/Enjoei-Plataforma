@@ -193,39 +193,62 @@ $blusas =  [
     ],
     //apartir daqui.....
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome" => "blusa preta zara",
+        "preco"=> 91.00,
+        "desconto" => 0,
+        "condicao" => "usado",
+        "descricao"=>"busto: 88cm
+                      comprimento: 50cm
+                      comp. braços: 65cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/blusa_preta_zara.jpg",
+        "marca" => "zara"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+       "nome" => "cropped renner",
+        "preco"=> 50.00,
+        "desconto" => 0,
+        "condicao" => "novo",
+        "descricao"=>"cropped renner apenas lavei a peça nunca usei (por isso está sem etiqueta e amassado) 
+        ele é de amarrar tamanho gg tem elastano a cor dele e um pouco mais viva laranja fica bem curtinho 
+        perfeito pra praia e piscina",
+        "pecasEmEstoque" => 45,
+        "img" => "../img_produtos/cropped_renner.jpg",
+        "marca" => "renner"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome" => "blusa caramelo marisa ribeiro",
+        "preco"=> 195.00,
+        "desconto" => 0,
+        "condicao" => "usado",
+        "descricao"=>"busto: 122
+                      comp.: 67
+                      manga: 55",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/blusa_caramelo_marisa.jpg",
+        "marca" => "marisa ribeiro"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome" => "top cropped branco com bojo",
+        "preco"=> 40.00,
+        "desconto" => 38.00,
+        "condicao" => "novo",
+        "descricao"=>"top cropped transpassado novo, com tag da loja. tecido composto por 95% poliéster e 5% elastano. 
+        ideal para os looks de verão, carnaval, praia use sua imaginação! medidas: 30cm de comprimento",
+        "pecasEmEstoque" => 102,
+        "img" => "../img_produtos/cropped_branco_bojo.jpg",
+        "marca" => "lady"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome" => "cropped preto babados aquamar",
+        "preco"=> 63.00,
+        "desconto" => 31.00,
+        "condicao" => "usado",
+        "descricao"=>"busto: 90.0cm
+                      comprimento: 36.0cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/cropped_preto_babados.jpg",
+        "marca" => "aquamar"
     ],
 ]
 ?>

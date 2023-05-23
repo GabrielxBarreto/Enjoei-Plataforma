@@ -420,320 +420,278 @@ $estoqueGeral =  [
     ],
     /*aqui tu adiciona pamin */
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome" => "blusa preta zara",
+        "preco"=> 91.00,
+        "desconto" => 0,
+        "condicao" => "usado",
+        "descricao"=>"busto: 88cm
+                      comprimento: 50cm
+                      comp. braços: 65cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/blusa_preta_zara.jpg",
+        "marca" => "zara"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+       "nome" => "cropped renner",
+        "preco"=> 50.00,
+        "desconto" => 0,
+        "condicao" => "novo",
+        "descricao"=>"cropped renner apenas lavei a peça nunca usei (por isso está sem etiqueta e amassado) 
+        ele é de amarrar tamanho gg tem elastano a cor dele e um pouco mais viva laranja fica bem curtinho 
+        perfeito pra praia e piscina",
+        "pecasEmEstoque" => 45,
+        "img" => "../img_produtos/cropped_renner.jpg",
+        "marca" => "renner"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome" => "blusa caramelo marisa ribeiro",
+        "preco"=> 195.00,
+        "desconto" => 0,
+        "condicao" => "usado",
+        "descricao"=>"busto: 122
+                      comp.: 67
+                      manga: 55",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/blusa_caramelo_marisa.jpg",
+        "marca" => "marisa ribeiro"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome" => "top cropped branco com bojo",
+        "preco"=> 40.00,
+        "desconto" => 38.00,
+        "condicao" => "novo",
+        "descricao"=>"top cropped transpassado novo, com tag da loja. tecido composto por 95% poliéster e 5% elastano. 
+        ideal para os looks de verão, carnaval, praia use sua imaginação! medidas: 30cm de comprimento",
+        "pecasEmEstoque" => 102,
+        "img" => "../img_produtos/cropped_branco_bojo.jpg",
+        "marca" => "lady"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome" => "cropped preto babados aquamar",
+        "preco"=> 63.00,
+        "desconto" => 31.00,
+        "condicao" => "usado",
+        "descricao"=>"busto: 90.0cm
+                      comprimento: 36.0cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/cropped_preto_babados.jpg",
+        "marca" => "aquamar"
     ],
     /*aqui tu desce a madeira */
-    [
-        "nome"=>"nome_1",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao" => "lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+     [
+        "nome"=>"calça preta legging",
+        "preco"=>50.00,
+        "desconto" => 30.00,
+        "condicao"=>"usado",
+        "descricao" => "cintura: 29cm
+        comprimento: 89cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/legging_preta.jpg",
+        "marca" => "não identificado"
     ],
     [
-        "nome"=>"nome_2",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça rosa",
+        "preco"=>169.00,
+        "desconto" => 60.00,
+        "condicao"=>"usado",
+        "descricao" => "calça reta rosa, tamanho 44, thaise morais, nova, mesmo tecido nv - acetato + viscose",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_rosa.jpg",
+        "marca" => "thaise morais"
     ],
     [
-        "nome"=>"nome_3",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça flare",
+        "preco"=>100.00,
+        "desconto" => 0,
+        "condicao"=>"usado",
+        "descricao" => "calça jeans, modelo flare, com abertura na barra, cós alto, tamanho 42. não foi usada.",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_flare.jpg",
+        "marca" => "não identificado"
     ],
     [
-        "nome"=>"nome_4",
-        "preco"=> 1.0,
-        "desconto" => false,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça feminina social pied poule",
+        "preco"=>180.00,
+        "desconto" => 130.00,
+        "condicao"=>"usado",
+        "descricao" => "em tecido de jacquard, possui 2 bolsos frontais e 2 posteriores funcionais, comprimento das pernas afunilado e detalhe em fenda na barra. apresenta desgaste no tecido (bolinhas) devido lavagens e algumas manchas escurecidas na nádega direita.
+        cintura 44cm/gancho frontal 29cm/quadril 54cm/coxa 29cm/comprimento 99cm/largura passador 5cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_femin_social.jpg",
+        "marca" => "cortelle"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça jeans bordada amô amô",
+        "preco"=>475.00,
+        "desconto" => 0,
+        "condicao"=>"novo",
+        "descricao" => "calça jeans da farm, bordada com estampa colorida de corações e cós alto, tendo umã modelagem confortável
+        ela está em perfeito estado, nunca usada",
+        "pecasEmEstoque" => 3,
+        "img" => "../img_produtos/calca_jeans_bordada.jpg",
+        "marca" => "farm"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça amarela floral flare ak urban",
+        "preco"=>71.00,
+        "desconto" => 30.00,
+        "condicao"=>"usado",
+        "descricao" => "cintura: 78cm
+        quadril: 98cm
+        comprimento: 104cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_amarela.jpg",
+        "marca" => "riachuelo"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"mom violeta a.brand",
+        "preco"=>375.00,
+        "desconto" => 0,
+        "condicao"=>"usado",
+        "descricao" => "calça violeta em seda com bolsos, barra com amarração, fecho em colchetes e zíper e modelagem mom.",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_mom.jpg",
+        "marca" => "a.brand"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"moletom calvin klein",
+        "preco"=>175.00,
+        "desconto" => 157.00,
+        "condicao"=>"usado",
+        "descricao" => "modelo de pernas curtas , comprado nos eua. usada .",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_moletom.jpg",
+        "marca" => "calvin klein"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça azul jeans iorane",
+        "preco"=>489.00,
+        "desconto" => 0,
+        "condicao"=>"novo",
+        "descricao" => "cintura: 76cm
+        quadril: 92cm
+        gancho: 33cm
+        comprimento: 118cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_jeans_iorane.jpg",
+        "marca" => "iorane"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça pantacour haes p",
+        "preco"=>120.00,
+        "desconto" => 91.00,
+        "condicao"=>"usado",
+        "descricao" => "calça pantacour haes p, cor cru, elástico largo e firme, medindo 70 cm sem esticar, abertura nas laterais, veste m tbm, usado 1x",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_pantacour_haes.jpg",
+        "marca" => "haes"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça social alfaiataria",
+        "preco"=>66.00,
+        "desconto" => 0,
+        "condicao"=>"usado",
+        "descricao" => "calça social da marca invait preta com listras cinza da marca invait. dois bolsos na frente, fechamento botão e zíper. estado: usado em bom estado.",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_social.jpg",
+        "marca" => "invait"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça jeans feminina diesel",
+        "preco"=>800.00,
+        "desconto" => 381.00,
+        "condicao"=>"usado",
+        "descricao" => "calça jeans feminina,cintura baixa,98% coton e 2% spandex,usada em perfeito estado.",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_jeans_diesel.jpg",
+        "marca" => "diesel"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça em couro zara",
+        "preco"=>198.00,
+        "desconto" => 0,
+        "condicao"=>"usado",
+        "descricao" => "calça em couro marrom coleção nova inverno 2023 usei 2 x e ficou larguinha pra mim por isso desapego",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_couro_zara.jpg",
+        "marca" => "zara"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça mostarda listrada talita kume",
+        "preco"=>99.00,
+        "desconto" => 0,
+        "condicao"=>"usado",
+        "descricao" => "cintura: 74cm
+        quadril: 90cm
+        comprimento: 98cm",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_mostarda.jpg",
+        "marca" => "talita kume"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça vermelha floral moda india",
+        "preco"=>65.00,
+        "desconto" => 0,
+        "condicao"=>"novo",
+        "descricao" => "cintura: 40cm
+        comprimento: 104cm",
+        "pecasEmEstoque" => 30,
+        "img" => "../img_produtos/calca_vermelha.jpg",
+        "marca" => "moda índia"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça jeans preta com listra prata.",
+        "preco"=>129.00,
+        "desconto" => 0,
+        "condicao"=>"novo",
+        "descricao" => "nova com etiqueta, queima de estoque. tamanhos disponíveis 36, 40 e 44.",
+        "pecasEmEstoque" => 20,
+        "img" => "../img_produtos/calca_jeans_preta.jpg",
+        "marca" => "trama jeans"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça azul petróleo pantacourt nanaminze",
+        "preco"=>189.00,
+        "desconto" => 141.00,
+        "condicao"=>"novo",
+        "descricao" => "cintura: 76cm
+        comprimento: 86cm",
+        "pecasEmEstoque" => 26,
+        "img" => "../img_produtos/calca_azul.jpg",
+        "marca" => "nanaminze"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça xadrez amarela",
+        "preco"=>30.00,
+        "desconto" => 25.00,
+        "condicao"=>"usado",
+        "descricao" => "calça com estampa xadrez na cor amarela, com zíperes para fechamento. não possui bolsos. tecido estica bem.
+        96% poliéster e 4% elastano",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_xadrez.jpg",
+        "marca" => "marisa"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça jeans zara turquia",
+        "preco"=>79.00,
+        "desconto" => 46.00,
+        "condicao"=>"usado",
+        "descricao" => "cintura: 80
+        quadril: 98
+        comp: 93",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_jeans_zara.jpg",
+        "marca" => "zara"
     ],
     [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome"=>"Jordan",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao" => "lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome"=>"nome_2",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome"=>"nome_3",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome"=>"nome_4",
-        "preco"=> 1.0,
-        "desconto" => false,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
-    ],
-    [
-        "nome" => "nome_5",
-        "preco"=> 1.0,
-        "desconto" => true,
-        "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
-        "pecasEmEstoque" => 5
+        "nome"=>"calça cargo zara",
+        "preco"=>80.00,
+        "desconto" => 64.00,
+        "condicao"=>"usado",
+        "descricao" => "calça feminina da marca zara, modelo cargo, tamanho eur 42, usa 10, mex 32, veste 42 br. tecido 98% algodão e 2%elastano. medidas: cintura 92 cm, gancho 23.5 cm, quadril 100 cm, comprimento 98 cm, diâmetro da barra 32 cm, entrepernas 78 cm, diâmetro da coxa 59 cm. usada",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_cargo.jpg",
+        "marca" => "zara"
     ],
 ]
 ?>
