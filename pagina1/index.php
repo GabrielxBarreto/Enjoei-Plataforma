@@ -16,7 +16,7 @@ $sorter =  rand(1,5);
     <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body>
+<body onload="carrosel()">
     
     <header>
         <nav>
@@ -87,7 +87,7 @@ $sorter =  rand(1,5);
 
         <div class="marca">
             <div class="marca-elementos">
-                <h3>NIKE</h3>
+                <h3 id="marca-id">NIKE</h3>
             </div>
         </div>
 
@@ -167,6 +167,7 @@ $sorter =  rand(1,5);
         <a href="../pagina2/recebido.php">ok</a>
         <p>© 2023 Venda de produtos. Todos os direitos reservados.</p>
     </footer>
+    <script src="../script.js"></script>
 </body>
 
 </html>
