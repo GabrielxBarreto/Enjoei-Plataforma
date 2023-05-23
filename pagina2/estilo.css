@@ -51,7 +51,7 @@ body {
             padding: 6px;
             border: none;
             border-radius: 10px;
-            font-family: FreeMono, monospace;
+            width: 250px;
         }
 
         .search-form button {
@@ -59,7 +59,7 @@ body {
             border: none;
             border-radius: 10px;
             color: #fff;
-            margin-left: 8px;
+            cursor: pointer;
             background-color: #333;
             font-family: FreeMono, monospace;
         }
@@ -100,6 +100,7 @@ body {
             display: flex;
         }
         #botoesPrincipais button{
+            margin-top:25px;
             font-family: FreeMono, monospace;
             border-radius: 20px;
             color:#2B2929;
@@ -145,9 +146,6 @@ body {
             
 
 		}
-        #searchbar{
-            width:300px;
-        }
         .botao button{
             font-size: large;
             padding: 10px;
