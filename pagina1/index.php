@@ -35,7 +35,7 @@ $sorter =  rand(1,5);
     </header>
     <br>
     <div class="banner">
-        <img id="banner_img" src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/Ilustra%C3%A7%C3%A3o-50-de-Desconto-PNG.png" alt="banner">
+        <img id="banner_img" src="../assets/banner<?=$sorter?>" alt="banner">
     </div><br>
 
     <section>
