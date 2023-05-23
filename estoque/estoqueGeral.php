@@ -226,6 +226,7 @@ $estoqueGeral =  [
         "img" => "../img_produtos/balaclava.png",
         "marca" => "vlone"
     ],
+    /*blusas */
     [
         "nome"=>"blusa feminina linho",
         "preco"=>75.00,
@@ -417,6 +418,7 @@ $estoqueGeral =  [
         "img" => "../img_produtos/atackontitanblusa.jpg",
         "marca" => "dattebayo"
     ],
+    /*aqui tu adiciona pamin */
     [
         "nome" => "nome_5",
         "preco"=> 1.0,
@@ -452,6 +454,7 @@ $estoqueGeral =  [
         "descricao"=>"lorem ipsum dolor sit amet, consectet morbi tristique senectus et netus et malesuada",
         "pecasEmEstoque" => 5
     ],
+    /*aqui tu desce a madeira */
     [
         "nome"=>"nome_1",
         "preco"=> 1.0,
