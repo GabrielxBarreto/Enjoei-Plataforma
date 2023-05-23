@@ -96,6 +96,15 @@ body {
             display: flex;
         }
         #botoesPrincipais button{
+            
+            border-radius: 20px;
+            color:#2B2929;
+            text-align: center;
+            margin-top: 150px;
+        }
+        #botoesPrincipais button:hover{
+            
+            border-radius: 20px;
             color:#2B2929;
             text-align: center;
             margin-top: 150px;
@@ -121,6 +130,7 @@ body {
             display: flex;
         }
 		.botao{
+            border-radius: 10px;
             display:flex ;
 			background: white;
 			 width: 85%;
