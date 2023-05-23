@@ -126,7 +126,7 @@ $sorter =  rand(1, 5);
             <?php
             $k = 0;
             foreach ($blusas as $key => $aux_blusas) {
-                if ($k <= 15) {
+                if ($k <= 14) {
 
                     $k++;
                     if($i == 4){
