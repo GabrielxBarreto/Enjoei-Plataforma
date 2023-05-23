@@ -3,6 +3,7 @@ require "../estoque/estoque_Acessorios.php";
 require "../estoque/estoque_Blusas.php";
 require "../estoque/estoque_Calcas.php";
 require "../estoque/estoque_Sapatos.php";
+$sorter =  rand(1,5);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
