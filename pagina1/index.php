@@ -119,7 +119,42 @@ require "../estoque/estoque_Sapatos.php";
             <p>RECOMENDADOS </p>
         </div>
 
+        <div class="recomendados-container"> 
+                <div class="item-1"> item 1 </div>
+                <div class="item-2"> item 2 </div>
+                <div class="item-3"> item 3</div>
+                <div class="item-4"> item 4</div>
+                <div class="item-5"> item 5</div>
+                <div class="item-6"> item 6</div>
+                <div class="item-7"> item 7 </div>
+                <div class="item-8"> item 8</div>
+                <div class="item-9"> item 9 </div>
+                <div class="item-10"> item 10</div>
+                <div class="item-11"> item 11 </div>
+                <div class="item-12"> item 12</div>
+                <div class="item-13">item 13 </div>
+                <div class="item-14"> item 14 </div>
+                <div class="item-15">item 15 </div>
+              
 
+        </div>
+
+
+
+        <div class="recomendados"> 
+            <p>INFANTIL </p>
+        </div>
+        <div class="infantil-container">
+        <div class="item-01"> item 1 </div>
+                <div class="item-02"> item 2 </div>
+                <div class="item-03"> item 3</div>
+                <div class="item-04"> item 4</div>
+                <div class="item-05"> item 5</div>
+                <div class="item-06"> item 6</div>
+                <div class="item-7"> item 7 </div>
+    </div>
+
+        
 
 
     </main>
