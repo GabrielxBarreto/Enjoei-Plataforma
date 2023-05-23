@@ -67,7 +67,10 @@ $sorter =  rand(1,5);
             foreach ($acessorios as $key => $auxiliar_acessorios) {
                 if ($i <= 8) {
                     if ($i == 3) {
-                        echo "<div class='grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></div>";
+                        echo "<div class='grid-item grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img>
+                        <div class='grid-item-preco'>{$auxiliar_acessorios["preco"]}</div>
+
+                        </div>";
                     } else if ($i == 6) {
                         echo "<div class='grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></div>";
                     } else if ($i == 8) {

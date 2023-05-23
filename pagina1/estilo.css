@@ -65,7 +65,16 @@ span{
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
     
-
+.grid-item{
+    position: relative;
+}
+.grid-item-preco{
+    position: absolute;
+    width:450px;
+    height:50px;
+    background-color: rgba(255,255,255,.5);
+    bottom:20px;
+}
 .grid-item1 {
    display: flex;
    justify-content: center;
