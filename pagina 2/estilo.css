@@ -4,6 +4,7 @@
     padding: 0;
 
 }
+
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +13,7 @@ body {
     padding: 0;
 	box-sizing:border-box;
 	background: linear-gradient(#f9d8b1, #c8b88e);
-        }
+     }
 
 
         header {
@@ -49,6 +50,7 @@ body {
             padding: 6px;
             border: none;
             border-radius: 10px;
+            font-family: FreeMono, monospace;
         }
 
         .search-form button {
@@ -58,6 +60,7 @@ body {
             color: #fff;
             margin-left: 8px;
             background-color: #333;
+            font-family: FreeMono, monospace;
         }
 
         #logo{
@@ -96,7 +99,7 @@ body {
             display: flex;
         }
         #botoesPrincipais button{
-            
+            font-family: FreeMono, monospace;
             border-radius: 20px;
             color:#2B2929;
             text-align: center;
@@ -136,6 +139,7 @@ body {
 			 width: 85%;
 			 height: 15rem;
              margin:auto;
+            
 
 		}
         #searchbar{
@@ -149,6 +153,7 @@ body {
             background: linear-gradient(#ffe4c4, #c6b792);
             border: none;
             color: #2B2929;
+            font-family: FreeMono, monospace;
 		}
 
 
@@ -168,6 +173,7 @@ body {
             text-align: center;
             color: #fff;
             padding: 20px;
+            font-family: OCR A Std, monospace;
         }
         .grid-item {
             width:180px;
@@ -194,10 +200,12 @@ body {
 			font-size: 40px;
             display: flex;
             justify-content: center;
+            font-family: OCR A Std, monospace;
 
 		}
         #h2inicial{
             margin-top: 30px;
+            
         }
         #container_compressao{
             width: 100%;
@@ -207,4 +215,3 @@ body {
             width:60px ;
             height:60px ;
         }
-
