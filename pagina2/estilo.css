@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 
 }
 
@@ -103,7 +104,8 @@ body {
             border-radius: 20px;
             color:#2B2929;
             text-align: center;
-            margin-top: 150px;
+            position:absolute;
+            bottom: 20px;
         }
         #botoesPrincipais button:hover{
             
