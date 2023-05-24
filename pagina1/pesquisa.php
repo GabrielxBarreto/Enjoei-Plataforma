@@ -125,7 +125,7 @@ box-sizing: border-box;
             </form>
             <a href="#"><img id="conta" src="../assets/usuarioicone.png" alt="userIcon" srcset=""></a>
             <a href="#"><img id="conta" src="../assets/roupaicon.png" alt="userIcon" srcset=""></a>
-            <a href="#"><img id="conta" src="../assets/0simbolocompras.png" alt="userIcon" srcset=""></a>
+            <a href="#"><img id="conta" src="../assets/simbolocompras.png" alt="userIcon" srcset=""></a>
         </nav>
     </header><br><br><br><br><br><br><br><br><br><br>
     
