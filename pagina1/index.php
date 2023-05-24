@@ -149,21 +149,6 @@ $sorter =  rand(1, 5);
 
 
 
-        <div class="recomendados">
-            <p>INFANTIL </p>
-        </div>
-        <div class="infantil-container">
-            <div class="item-01"> item 1 </div>
-            <div class="item-02"> item 2 </div>
-            <div class="item-03"> item 3</div>
-            <div class="item-04"> item 4</div>
-            <div class="item-05"> item 5</div>
-            <div class="item-06"> item 6</div>
-            <div class="item-7"> item 7 </div>
-        </div>
-
-
-
 
     </main>
 
