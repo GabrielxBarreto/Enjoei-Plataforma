@@ -1,4 +1,24 @@
 <!--PARTE 2-->
+<?php
+
+require "../estoque/estoque_Acessorios.php";
+require "../estoque/estoque_Blusas.php";
+require "../estoque/estoque_Calcas.php";
+require "../estoque/estoque_Sapatos.php";
+require "../estoque/estoqueGeral.php";
+
+if(!isset($_GET["key"])){
+    header("location:../pagina1/index.php");
+    die;
+}
+
+$indice = $_GET["key"];
+
+if(isset($estoque_Acessorios[$indice])){
+    $estoqueSetado = $estoque_Acessorios[$indice];
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,15 +45,15 @@
         </nav>
     </header>
     <div id="container_compressao">
+        
+
         <div class="container">
-            <img id="image" src="https://i.pinimg.com/originals/08/9c/7e/089c7e388e96551c98ab7c2db064f801.jpg">
+            <img id="image" src=<?=$estoqueSetado["img"]?>>
             <div class="detalhes">
                 <div id="texto">
-                    <h1>Peça de roupa x</h1>
+                    <h1><?=$estoqueSetado["nome"]?></h1>
                 </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, mollitia maxime, qui obcaecati quasi, aut
-                    nam necessitatibus repellendus quisquam modi asperiores debitis dolorem sed sequi in facilis culpa
-                    inventore harum.</p>
+                <p><?=$estoqueSetado["descricao"]?></p>
                 <div id="botoesPrincipais">
                     <button type="submit">Comprar</button>
                     <button type="submit">Fazer Oferta</button>
@@ -46,8 +66,8 @@
         <div id="aux">
             <div class="botao">
     
-                <button type="submit">Marca:(qualquer uma)</button>
-                <button type="submit">Estoque:(X peças)</button>
+                <button type="submit"><?=$estoqueSetado["marca"]?></button>
+                <button type="submit"><?=$estoqueSetado["pecasEmEstoque"]?></button>
             </div>
         </div>
     
@@ -56,6 +76,7 @@
 <br>
     <h2 id="#h2inicial">Outros produtos</h2>
     <br>
+    <!-- Adicionar as tags a e a tag de imagem -->
     <div class="flex-container">
         <div class="grid-item"> </div>
         <div class="grid-item"> </div>
