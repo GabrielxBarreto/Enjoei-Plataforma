@@ -99,6 +99,17 @@ box-sizing: border-box;
     text-align: center;
     font-size: 80px;
 }
+#otherProducts{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+#otherProducts img{
+    margin: 26px;
+}
     </style>
 </head>
 
@@ -185,7 +196,14 @@ box-sizing: border-box;
     </div>
     <div class="recomendados02">
         <p>RECOMENDADOS</p>
-        <div>
+    </div>
+        <div id="otherProducts">   
+        <?php
+        foreach($estoqueGeral as $key => $viewGeral){
+            echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300'class='item01'  src='{$viewGeral["img"]}'></div></a>";
+        }
+        ?>
+         </div> 
 </body>
 
 </html>
