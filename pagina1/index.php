@@ -74,7 +74,7 @@ $sorter =  rand(1, 5);
                     } else if ($i == 6) {
                         echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></a></div>";
                     } else if ($i == 8) {
-                        echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width='300' height='470' src={$auxiliar_acessorios["img"]}></img></a></div>";
+                        echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width='300' height='470' src={$auxiliar_acessorios["img"]}></a></div>";
                     }elseif($i == 0){
                          
                     }else if($i != 3 && $i != 6 && $i != 8 ){

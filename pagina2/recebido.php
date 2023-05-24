@@ -14,8 +14,8 @@ if(!isset($_GET["key"])){
 
 $indice = $_GET["key"];
 
-if(isset($estoque_Acessorios[$indice])){
-    $estoqueSetado = $estoque_Acessorios[$indice];
+if(isset($estoqueGeral[$indice])){
+    $estoqueGeral = $estoqueGeral[$indice];
 }
 
 ?>
@@ -45,15 +45,17 @@ if(isset($estoque_Acessorios[$indice])){
         </nav>
     </header>
     <div id="container_compressao">
-        
+    <?php
+            if(isset($estoqueGeral)){
+            ?>
 
         <div class="container">
-            <img id="image" src=<?=$estoqueSetado["img"]?>>
+            <img id="image" src=<?=$estoqueGeral["img"]?>>
             <div class="detalhes">
                 <div id="texto">
-                    <h1><?=$estoqueSetado["nome"]?></h1>
+                    <h1><?=$estoqueGeral["nome"]?></h1>
                 </div>
-                <p><?=$estoqueSetado["descricao"]?></p>
+                <p><?=$estoqueGeral["descricao"]?></p>
                 <div id="botoesPrincipais">
                     <button type="submit">Comprar</button>
                     <button type="submit">Fazer Oferta</button>
@@ -66,12 +68,15 @@ if(isset($estoque_Acessorios[$indice])){
         <div id="aux">
             <div class="botao">
     
-                <button type="submit"><?=$estoqueSetado["marca"]?></button>
-                <button type="submit"><?=$estoqueSetado["pecasEmEstoque"]?></button>
+                <button type="submit"><?=$estoqueGeral["marca"]?></button>
+                <button type="submit"><?=$estoqueGeral["pecasEmEstoque"]?></button>
             </div>
         </div>
     
     </div>
+    <?php }else{
+        echo "not found";
+        }?>
     
 <br>
     <h2 id="#h2inicial">Outros produtos</h2>
