@@ -1,16 +1,6 @@
 <!--PARTE 2-->
 <?php
-
-require "../estoque/estoque_Acessorios.php";
-require "../estoque/estoque_Blusas.php";
-require "../estoque/estoque_Calcas.php";
-require "../estoque/estoque_Sapatos.php";
 require "../estoque/estoqueGeral.php";
-require "../estoque/recomendados.php";
-require "../estoque/maisvendidos.php";
-require "../estoque/descontos.php";
-require "../estoque/infantil.php";
-
 if(!isset($_GET["key"])){
     header("location:../pagina1/index.php");
     die;
