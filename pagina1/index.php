@@ -5,6 +5,9 @@ require "../estoque/estoque_Calcas.php";
 require "../estoque/estoque_Sapatos.php";
 require "../estoque/recomendados.php";
 require "../estoque/descontos.php";
+require "../estoque/maisvendidos.php";
+require "../estoque/infantil.php";
+
 $sorter =  rand(1, 5);
 ?>
 <!DOCTYPE html>
@@ -69,18 +72,18 @@ $sorter =  rand(1, 5);
             foreach ($descontos as $key => $auxiliar_acessorios) {
                 if ($i <= 9) {
                     if ($i == 3) {
-                        echo "<div class='grid-item grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img>
+                        echo "<div class='grid-item grid-item{$i}'><a href='../recebido.php?key=<?=$key?'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></a>
                         <div class='grid-item-preco'>{$auxiliar_acessorios["preco"]}</div>
 
                         </div>";
                     } else if ($i == 6) {
-                        echo "<div class='grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></div>";
+                        echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></a></div>";
                     } else if ($i == 8) {
-                        echo "<div class='grid-item{$i}'><img width='300' height='470' src={$auxiliar_acessorios["img"]}></img></div>";
+                        echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width='300' height='470' src={$auxiliar_acessorios["img"]}></img></a></div>";
                     }elseif($i == 0){
                          
                     }else if($i != 3 && $i != 6 && $i != 8 ){
-                        echo "<div class='grid-item{$i}'><img width='200' height='200' src={$auxiliar_acessorios["img"]}></img></div>";
+                        echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width='200' height='200' src={$auxiliar_acessorios["img"]}></img></a></div>";
                         }
                     $i++;
                 } else {
@@ -103,14 +106,14 @@ $sorter =  rand(1, 5);
         <div class="container-vendidos">
             <?php
             $j = 0;
-            foreach ($blusas as $key => $aux_blusas) {
+            foreach ($maisvendidos as $key => $aux_blusas) {
                 if ($j <= 6) {
 
                     $j++;
                     if ($j == 3) {
-                        echo "<div class='item{$j}'><img width ='330' height='450'src='{$aux_blusas['img']}'></div>";
+                        echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width ='330' height='450'src='{$aux_blusas['img']}'></a></div>";
                     } else {
-                        echo "<div class='item{$j}'><img width='200' height='200' src='{$aux_blusas['img']}'></div>";
+                        echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width='200' height='200' src='{$aux_blusas['img']}'></a></div>";
                     }
                 } else {
                     break;
@@ -135,9 +138,9 @@ $sorter =  rand(1, 5);
 
                     $k++;
                     if($i == 4){
-                        echo "<div class='item-{$k}'><img width = '300' height = '2' src='{$aux_blusas['img']}'> </div>";
+                        echo "<div class='item-{$k}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width = '300' height = '2' src='{$aux_blusas['img']}'> </a></div>";
                     }else{
-                        echo "<div class='item-{$k}'><img width = '200' height = '200' src='{$aux_blusas['img']}'></div>";
+                        echo "<div class='item-{$k}'><a href='../pagina2/recebido.php?key=<?=$key?'><img width = '200' height = '200' src='{$aux_blusas['img']}'></a></div>";
                     }
                     
                 } else {
@@ -153,8 +156,17 @@ $sorter =  rand(1, 5);
 
         <div class="recomendados">
             <p>INFANTIL </p>
+            
         </div>
-        <div class="infantil-container">
+        <?php
+        $h = 0;
+            foreach ($infantil as $key => $aux_blusas) {
+               echo "<div class='infantil-container'><div class='item-0{$h}'> item 1 </div></div>";
+               $h++;
+            }
+        ?>
+
+<div class="infantil-container">
             <div class="item-01"> item 1 </div>
             <div class="item-02"> item 2 </div>
             <div class="item-03"> item 3</div>
@@ -163,8 +175,6 @@ $sorter =  rand(1, 5);
             <div class="item-06"> item 6</div>
             <div class="item-7"> item 7 </div>
         </div>
-
-
 
 
     </main>

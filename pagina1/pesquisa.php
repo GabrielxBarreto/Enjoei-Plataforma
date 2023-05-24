@@ -4,6 +4,11 @@ require "../estoque/estoque_Calcas.php";
 require "../estoque/estoque_Blusas.php";
 require "../estoque/estoque_Sapatos.php";
 require "../estoque/estoqueGeral.php";
+require "../estoque/maisvendidos.php";
+require "../estoque/descontos.php";
+require "../estoque/recomendados.php";
+require "../estoque/infantil.php";
+
 if(!isset($_GET["item"])){
     header("location:index.php");
 }else{
@@ -122,19 +127,19 @@ box-sizing: border-box;
         <?php
         if($itemPesquisado == "Sapato"||$itemPesquisado == "sapato"||$itemPesquisado == "Sapatos"||$itemPesquisado == "sapatos"|| $itemPesquisado == "calçados" || $itemPesquisado == "calcados" || $itemPesquisado =="Calcados" || $itemPesquisado == "Sandalhas"){
             foreach($sapatos as $key => $value){
-                echo "<img width ='200' height='200' class='item' src='{$value["img"]}'>";
+                echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item' src='{$value["img"]}'>/a>";
             }
         }elseif($itemPesquisado == "Acessórios"||$itemPesquisado == "acc" ||$itemPesquisado == "acessorios"|| $itemPesquisado == "Acessorios" || $itemPesquisado == "Acessorio"){
             foreach($acessorios as $key => $value){
-                echo "<img width ='200' height='200' class='item' src='{$value["img"]}'>";
+                echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item' src='{$value["img"]}'></a>";
             }
         }elseif($itemPesquisado == "Calcas"||$itemPesquisado == "Calças"||$itemPesquisado == "calcas"||$itemPesquisado == "calças"){
             foreach($calcas as $key => $value){
-                echo "<img width ='200' height='200' class='item' src='{$value["img"]}'>";
+                echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item' src='{$value["img"]}'></a>";
             }
         }elseif($itemPesquisado == "Blusas" || $itemPesquisado == "blusas" || $itemPesquisado == "Blusa"|| $itemPesquisado == "Blusa"||$itemPesquisado == "Camisa" || $itemPesquisado == "Camisas" || $itemPesquisado == "camisa" || $itemPesquisado == "camisas"){
             foreach($blusas as $key => $value){
-                echo "<img width ='200' height='200' class='item' src='{$value["img"]}'>";
+                echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item' src='{$value["img"]}'></a>";
             }
         }else{
             //itens gerais:
@@ -144,23 +149,23 @@ box-sizing: border-box;
             if(true){
                 for($i=0; $i<count($details_Nome); $i++){
                     if($itemPesquisado == $details_Nome[$i]){
-                        echo "<img width ='200' height='200' class='item'  src='{$value["img"]}'>";
+                        echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item'  src='{$value["img"]}'></a>";
                     }
                 }
                 for($j=0; $j<count($details_Descricao); $j++){
                     if($itemPesquisado == $details_Descricao[$j]){
-                        echo "<img width ='200' height='200' class='item' src='{$value["img"]}'>";
+                        echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item' src='{$value["img"]}'></a>";
                         echo $value["descricao"];
     
                     }
                 }
            
                 if($itemPesquisado == $value["nome"]){  
-                    echo "<img width ='200' height='200' class='item' src='{$value["img"]}'>";
+                    echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item' src='{$value["img"]}'></a>";
                 }elseif($itemPesquisado == $value["preco"]){
-                    echo "<img width ='200' height='200' class='item' src='{$value["img"]}'>";
+                    echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item' src='{$value["img"]}'></a>";
                 }elseif($itemPesquisado == $value["pecasEmEstoque"]){
-                    echo "<img width ='200' height='200' class='item' src='{$value["img"]}'>";
+                    echo "<a href='../pagina2/recebido.php?key=<?=$key?'><img width ='200' height='200' class='item' src='{$value["img"]}'></a>";
                 }
             }else{
                 echo "<div class='item> Nada encontrado </div>";
