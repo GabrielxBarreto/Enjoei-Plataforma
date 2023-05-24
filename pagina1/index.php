@@ -3,6 +3,8 @@ require "../estoque/estoque_Acessorios.php";
 require "../estoque/estoque_Blusas.php";
 require "../estoque/estoque_Calcas.php";
 require "../estoque/estoque_Sapatos.php";
+require "../estoque/recomendados.php";
+require "../estoque/descontos.php";
 $sorter =  rand(1, 5);
 ?>
 <!DOCTYPE html>
@@ -64,7 +66,7 @@ $sorter =  rand(1, 5);
         <div class="grid-container">
             <?php
             $i = 0;
-            foreach ($acessorios as $key => $auxiliar_acessorios) {
+            foreach ($descontos as $key => $auxiliar_acessorios) {
                 if ($i <= 9) {
                     if ($i == 3) {
                         echo "<div class='grid-item grid-item{$i}'><img width='450' height='450' src={$auxiliar_acessorios["img"]}></img>
@@ -128,7 +130,7 @@ $sorter =  rand(1, 5);
             <div class="item-1"> item 1 </div>
             <?php
             $k = 0;
-            foreach ($blusas as $key => $aux_blusas) {
+            foreach ($recomendados as $key => $aux_blusas) {
                 if ($k <= 14) {
 
                     $k++;
