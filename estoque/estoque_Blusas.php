@@ -191,7 +191,6 @@ $blusas =  [
         "img" => "../img_produtos/atackontitanblusa.jpg",
         "marca" => "dattebayo"
     ],
-    //apartir daqui.....
     [
         "nome" => "blusa preta zara",
         "preco"=> 91.00,
