@@ -129,19 +129,19 @@ box-sizing: border-box;
         <?php
 
         if($itemPesquisado == "Sapato"||$itemPesquisado == "sapato"||$itemPesquisado == "Sapatos"||$itemPesquisado == "sapatos"|| $itemPesquisado == "calçados" || $itemPesquisado == "calcados" || $itemPesquisado =="Calcados" || $itemPesquisado == "Sandalhas"){
-            foreach($sapatos as $key => $value){
+            foreach($estoqueGeral as $key => $value){
                 echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'> <img width ='300' height='300'  src='{$value["img"]}'></div></a>";
             }
         }elseif($itemPesquisado == "Acessórios"||$itemPesquisado == "acc" ||$itemPesquisado == "acessorios"|| $itemPesquisado == "Acessorios" || $itemPesquisado == "Acessorio"){
-            foreach($acessorios as $key => $value){
+            foreach($estoqueGeral as $key => $value){
                 echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300' src='{$value["img"]}'></div></a>";
             }
         }elseif($itemPesquisado == "Calcas"||$itemPesquisado == "Calças"||$itemPesquisado == "calcas"||$itemPesquisado == "calças"){
-            foreach($calcas as $key => $value){
+            foreach($estoqueGeral as $key => $value){
                 echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300' src='{$value["img"]}'></div></a>";
             }
         }elseif($itemPesquisado == "Blusas" || $itemPesquisado == "blusas" || $itemPesquisado == "Blusa"|| $itemPesquisado == "Blusa"||$itemPesquisado == "Camisa" || $itemPesquisado == "Camisas" || $itemPesquisado == "camisa" || $itemPesquisado == "camisas"){
-            foreach($blusas as $key => $value){
+            foreach($estoqueGeral as $key => $value){
                 echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
             }
         }else{
