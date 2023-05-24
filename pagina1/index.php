@@ -135,7 +135,7 @@ $sorter =  rand(1, 5);
             $k = 0;
 
             foreach ($estoqueGeral as $key => $aux_blusas) {
-                if($aux_blusas["recomendados"] == true){
+                if($aux_blusas["categoria"] == "recomendados"){
                 if ($k <= 14) {
 
                     $k++;
@@ -164,8 +164,8 @@ $sorter =  rand(1, 5);
         <?php
         $h = 0;
             foreach ($estoqueGeral as $key => $aux_blusas) {
-                if($aux_blusas["infantil"] == true){
-               echo "<div class='infantil-container'><div class='item-0{$h}'> item 1 </div></div>";
+                if($aux_blusas["categoria"] == "infantil"){
+               echo "<div class='infantil-container'><div class='item-0{$h}'></div></div>";
                $h++;
             }
         }

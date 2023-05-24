@@ -1,14 +1,5 @@
 <?php
-require "../estoque/estoque_Acessorios.php";
-require "../estoque/estoque_Calcas.php";
-require "../estoque/estoque_Blusas.php";
-require "../estoque/estoque_Sapatos.php";
 require "../estoque/estoqueGeral.php";
-require "../estoque/maisvendidos.php";
-require "../estoque/descontos.php";
-require "../estoque/recomendados.php";
-require "../estoque/infantil.php";
-
 if(!isset($_GET["item"])){
     header("location:index.php");
 }else{
@@ -138,7 +129,7 @@ box-sizing: border-box;
         <?php
 
         if($itemPesquisado == "Sapato"||$itemPesquisado == "sapato"||$itemPesquisado == "Sapatos"||$itemPesquisado == "sapatos"|| $itemPesquisado == "calçados" || $itemPesquisado == "calcados" || $itemPesquisado =="Calcados" || $itemPesquisado == "Sandalhas"){
-            foreach($sapatos as $key => $value){
+            foreach($estoqueGeral as $key => $value){
                 echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'> <img width ='300' height='300'  src='{$value["img"]}'></div></a>";
             }
         }elseif($itemPesquisado == "Acessórios"||$itemPesquisado == "acc" ||$itemPesquisado == "acessorios"|| $itemPesquisado == "Acessorios" || $itemPesquisado == "Acessorio"){
