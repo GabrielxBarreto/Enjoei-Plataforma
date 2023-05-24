@@ -133,7 +133,7 @@ $sorter =  rand(1, 5);
 
                     $k++;
                     if($i == 4){
-                        echo "<div class='item-{$k}'><img width = '300' height = '2' src='{$aux_blusas['img']}' </div>";
+                        echo "<div class='item-{$k}'><img width = '300' height = '2' src='{$aux_blusas['img']}'> </div>";
                     }else{
                         echo "<div class='item-{$k}'><img width = '200' height = '200' src='{$aux_blusas['img']}'></div>";
                     }
