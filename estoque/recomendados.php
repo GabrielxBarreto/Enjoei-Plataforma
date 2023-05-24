@@ -1,14 +1,14 @@
 <?php
 $recomendados =  [
     [
-        "nome"=>"balaclava vlone" ,
-        "preco"=>99.00,
-        "desconto" => false,
-        "condicao"=>"novo",
-        "descricao" => "balaclava vlone a pronta engrega",
-        "pecasEmEstoque" => 7,
-        "img" => "../img_produtos/balaclava.png",
-        "marca" => "vlone"
+        "nome"=>"calça social alfaiataria",
+        "preco"=>66.00,
+        "desconto" => 0,
+        "condicao"=>"usado",
+        "descricao" => "calça social da marca invait preta com listras cinza da marca invait. dois bolsos na frente, fechamento botão e zíper. estado: usado em bom estado.",
+        "pecasEmEstoque" => 1,
+        "img" => "../img_produtos/calca_social.jpg",
+        "marca" => "invait"
     ],
     [
         "nome"=>"calça cargo zara",
