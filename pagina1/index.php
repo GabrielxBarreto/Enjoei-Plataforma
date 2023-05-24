@@ -1,12 +1,5 @@
 <?php
-require "../estoque/estoque_Acessorios.php";
-require "../estoque/estoque_Blusas.php";
-require "../estoque/estoque_Calcas.php";
-require "../estoque/estoque_Sapatos.php";
-require "../estoque/recomendados.php";
-
-require "../estoque/maisvendidos.php";
-require "../estoque/infantil.php";
+require "../estoque/estoqueGeral.php";
 
 $sorter =  rand(1, 5);
 ?>
@@ -24,6 +17,7 @@ $sorter =  rand(1, 5);
 <body onload="carrosel()">
 
     <header>
+        <a href="../fin_compra/finalizarcompra.php"></a>
         <nav>
             <div class="logo">
                 <a href="index.php"><img id="logo" src="../assets/breshoplogo.png" alt="Logo da empresa"></a>
@@ -111,8 +105,8 @@ $sorter =  rand(1, 5);
         <div class="container-vendidos">
             <?php
             $j = 0;
-            foreach ($maisvendidos as $key => $aux_blusas) {
-                if($aux_blusas["categoria"] == "mais vendidos"){
+            foreach ($estoqueGeral as $key => $aux_blusas) {
+                if($aux_blusas["categoria"] == "mais vendido"){
                 if ($j <= 6) {
 
                     $j++;
@@ -139,7 +133,9 @@ $sorter =  rand(1, 5);
             <div class="item-1"> item 1 </div>
             <?php
             $k = 0;
-            foreach ($recomendados as $key => $aux_blusas) {
+
+            foreach ($estoqueGeral as $key => $aux_blusas) {
+                if($aux_blusas["recomendados"] == true){
                 if ($k <= 14) {
 
                     $k++;
@@ -154,6 +150,7 @@ $sorter =  rand(1, 5);
                 }
             }
 
+        }
 
             ?>
         </div>
@@ -166,23 +163,13 @@ $sorter =  rand(1, 5);
         </div>
         <?php
         $h = 0;
-            foreach ($infantil as $key => $aux_blusas) {
+            foreach ($estoqueGeral as $key => $aux_blusas) {
+                if($aux_blusas["infantil"] == true){
                echo "<div class='infantil-container'><div class='item-0{$h}'> item 1 </div></div>";
                $h++;
             }
+        }
         ?>
-
-<div class="infantil-container">
-            <div class="item-01"> item 1 </div>
-            <div class="item-02"> item 2 </div>
-            <div class="item-03"> item 3</div>
-            <div class="item-04"> item 4</div>
-            <div class="item-05"> item 5</div>
-            <div class="item-06"> item 6</div>
-            <div class="item-7"> item 7 </div>
-        </div>
-
-
     </main>
 
     <footer>
