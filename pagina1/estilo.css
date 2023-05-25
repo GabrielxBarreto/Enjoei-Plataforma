@@ -47,6 +47,9 @@ header {
 span{
     margin-left:550px;
 }
+form button{
+    font-family: 'Playfair Display', serif; 
+}
 
 .grid-container {
     display: grid;
@@ -213,6 +216,12 @@ grid-row: 4/5;
 }
 #banner_img{
     width: 50%;
+}
+.banner h3{
+    font-family: 'Playfair Display', serif;
+}
+.banner h2{
+    font-family: 'Playfair Display', serif;
 }
 
 nav {
