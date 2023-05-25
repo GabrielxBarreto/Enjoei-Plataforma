@@ -28,7 +28,7 @@ if(isset($estoqueGeral[$indice])){
     <header>
         <nav>
         <a href="../pagina1/index.php"><img id="logo" src="../assets/breshoplogo.png" alt="Logo da empresa"></a>
-            <form class="search-form">
+            <form class="search-form"method ="get" action="../pagina1/pesquisa.php">
                 <input required id="searchbar" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
                 <a href="#"></a><img id="conta" src="../assets/usuarioicone.png" alt="userIcon" srcset=""></a>

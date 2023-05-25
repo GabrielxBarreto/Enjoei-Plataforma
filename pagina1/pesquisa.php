@@ -130,19 +130,28 @@ box-sizing: border-box;
 
         if($itemPesquisado == "Sapato"||$itemPesquisado == "sapato"||$itemPesquisado == "Sapatos"||$itemPesquisado == "sapatos"|| $itemPesquisado == "calçados" || $itemPesquisado == "calcados" || $itemPesquisado =="Calcados" || $itemPesquisado == "Sandalhas"){
             foreach($estoqueGeral as $key => $value){
-                echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'> <img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+                if($value["categoria"]== "sapato"){
+                    echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'> <img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+                }
+                
             }
         }elseif($itemPesquisado == "Acessórios"||$itemPesquisado == "acc" ||$itemPesquisado == "acessorios"|| $itemPesquisado == "Acessorios" || $itemPesquisado == "Acessorio"){
             foreach($estoqueGeral as $key => $value){
-                echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300' src='{$value["img"]}'></div></a>";
+                if($value["categoria"]== "acessorios"){
+                echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300' src='{$value["img"]}'></div></a>";
+                }
             }
         }elseif($itemPesquisado == "Calcas"||$itemPesquisado == "Calças"||$itemPesquisado == "calcas"||$itemPesquisado == "calças"){
             foreach($estoqueGeral as $key => $value){
-                echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300' src='{$value["img"]}'></div></a>";
+                if($value["categoria"]== "calcas"){
+                echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300' src='{$value["img"]}'></div></a>";
+                }
             }
         }elseif($itemPesquisado == "Blusas" || $itemPesquisado == "blusas" || $itemPesquisado == "Blusa"|| $itemPesquisado == "Blusa"||$itemPesquisado == "Camisa" || $itemPesquisado == "Camisas" || $itemPesquisado == "camisa" || $itemPesquisado == "camisas"){
             foreach($estoqueGeral as $key => $value){
-                echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+                if($value["categoria"]== "blusa"){
+                echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+                }
             }
         }else{
             //itens gerais:
@@ -152,23 +161,23 @@ box-sizing: border-box;
             if(true){
                 for($i=0; $i<count($details_Nome); $i++){
                     if($itemPesquisado == $details_Nome[$i]){
-                        echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300'   src='{$value["img"]}'></div></a>";
+                        echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'   src='{$value["img"]}'></div></a>";
                     }
                 }
                 for($j=0; $j<count($details_Descricao); $j++){
                     if($itemPesquisado == $details_Descricao[$j]){
-                        echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+                        echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
                         //echo $value["descricao"];
     
                     }
                 }
            
                 if($itemPesquisado == $value["nome"]){  
-                    echo "<a href='../pagina2/recebido.php?key=<?=$key?'<div class='item001'>><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+                    echo "<a href='../pagina2/recebido.php?key={$key}'<div class='item001'>><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
                 }elseif($itemPesquisado == $value["preco"]){
-                    echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+                    echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
                 }elseif($itemPesquisado == $value["pecasEmEstoque"]){
-                    echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+                    echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
                 }
             }else{
                 echo "<div class='item> Nada encontrado </div>";
@@ -191,7 +200,7 @@ box-sizing: border-box;
         <div id="otherProducts">   
         <?php
         foreach($estoqueGeral as $key => $viewGeral){
-            echo "<a href='../pagina2/recebido.php?key=<?=$key?'><div class='item001'><img width ='300' height='300'class='item01'  src='{$viewGeral["img"]}'></div></a>";
+            echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'class='item01'  src='{$viewGeral["img"]}'></div></a>";
         }
         ?>
          </div> 
