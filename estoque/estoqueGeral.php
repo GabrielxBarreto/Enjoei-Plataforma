@@ -1,6 +1,6 @@
 <?php
 $estoqueGeral =  [
-    [
+    0 =>[
         "nome"=>"bracelete rígido pandora prata 925",
         "preco"=> 280.00,
         "desconto" => 252.00,

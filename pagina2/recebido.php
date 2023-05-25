@@ -9,7 +9,7 @@ if(!isset($_GET["key"])){
 $indice = $_GET["key"];
 
 if(isset($estoqueGeral[$indice])){
-    $estoqueGeral = $estoqueGeral[$indice];
+    $itemSelect = $estoqueGeral[$indice];
 }
 
 ?>
@@ -40,16 +40,16 @@ if(isset($estoqueGeral[$indice])){
     </header>
     <div id="container_compressao">
     <?php
-            if(isset($estoqueGeral)){
+            if(isset($itemSelect)){
             ?>
 
         <div class="container">
-            <img id="image" src=<?=$estoqueGeral["img"]?>>
+            <img id="image" src=<?=$itemSelect["img"]?>>
             <div class="detalhes">
                 <div id="texto">
-                    <h1><?=$estoqueGeral["nome"]?></h1>
+                    <h1><?=$itemSelect["nome"]?></h1>
                 </div>
-                <p><?=$estoqueGeral["descricao"]?></p>
+                <p><?=$itemSelect["descricao"]?></p>
                 <div id="botoesPrincipais">
                     <button type="submit">Comprar</button>
                     <button type="submit">Fazer Oferta</button>
@@ -62,8 +62,8 @@ if(isset($estoqueGeral[$indice])){
         <div id="aux">
             <div class="botao">
     
-                <button type="submit"><?=$estoqueGeral["marca"]?></button>
-                <button type="submit"><?=$estoqueGeral["pecasEmEstoque"]?></button>
+                <button type="submit"><?=$itemSelect["marca"]?></button>
+                <button type="submit"><?=$itemSelect["pecasEmEstoque"]?></button>
             </div>
         </div>
     
@@ -73,23 +73,26 @@ if(isset($estoqueGeral[$indice])){
         }?>
     
 <br>
-    <h2 id="#h2inicial">Outros produtos</h2>
+    <h2 id="#h2inicial"> Produtos Relacionados</h2>
     <br>
-    <!-- Adicionar as tags a e a tag de imagem -->
     <div class="flex-container">
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <!-- <div class="grid-item"> </div> -->
+    <?php
+    $i = 0;
+        foreach($itemSelect as $key => $value){
+            if($value["categoria"]==$estoqueGeral[0]["categoria"]){
+                $i ++;
+                var_dump($i);
+    ?>
+    
+        <div class="grid-item"> 
+            <a href="http://"><img src="" alt="" srcset=""></a>
+        </div>
+        
+    
+    <?php
+            }
+        }
+    ?>
     </div>
     <br>
     <h2>Outros produtos</h2>
