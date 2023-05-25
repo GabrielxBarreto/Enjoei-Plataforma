@@ -972,7 +972,7 @@ $estoqueGeral =  [
         "desconto" => 1009.00,
         "descricao" => "Tênis Casual Air Force 1 Em Couro Cor - Branco",
         "pecasEmEstoque" => 245,
-        "img" => "../img_produtos/air_force1.avif",
+        "img" => "../img_produtos/air_force1.jpg",
         "marca" => "nike",
         "categoria" => "mais vendido"
     ],

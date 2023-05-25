@@ -34,7 +34,11 @@ $sorter =  rand(1, 5);
     </header>
     <br>
     <div class="banner">
-        <img id="banner_img" src="../assets/banner<?= $sorter ?>.png" alt="banner">
+        <h3>PROMOÇÃO</h3>
+        <br>
+        <br>
+        <h2><p id="desconto">%</p></h2>
+        <h2>OFF</h2>
     </div><br>
 
     <section>

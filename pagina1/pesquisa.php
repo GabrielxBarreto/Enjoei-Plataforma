@@ -151,8 +151,8 @@ box-sizing: border-box;
             foreach($estoqueGeral as $key => $value){
                 if($value["categoria"]== "blusa"){
                 echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
-                }
             }
+        }
         }else{
             //itens gerais:
         foreach($estoqueGeral as $key => $value){
@@ -184,8 +184,6 @@ box-sizing: border-box;
             }
             }
         }
-    
-        
     ?>
     
 

@@ -202,6 +202,7 @@ grid-row: 3/5;
 grid-row: 4/5; 
 }
 .banner{
+    flex-direction: column;
     margin-top: 200px;
     display: flex;
     align-items: center;
