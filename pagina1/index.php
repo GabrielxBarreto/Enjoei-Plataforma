@@ -66,21 +66,19 @@ $sorter =  rand(1, 5);
 
 
             foreach ($estoqueGeral as $key => $auxiliar_acessorios) {
-                if ($auxiliar_acessorios["desconto"] == true) {
-
+                if ($auxiliar_acessorios["desconto"] != false) {
+                    $precoFormat = number_format($auxiliar_acessorios["preco"],2);
                     if ($i <= 9) {
-                        if ($i == 3) {
+                        if ($i == 3 || $i == 6) {
                             echo "
                                     <div class='grid-item grid-item{$i}'>
                                     <a href='../pagina2/recebido.php?key={$key}'> 
                                         <img width='450' height='450' src={$auxiliar_acessorios["img"]}>
                                             <div class='grid-item-preco'>
-                                                {$auxiliar_acessorios["preco"]}
+                                               R$ {$precoFormat}
                                             </div>
                                     </div>
                                 </a>";
-                        } else if ($i == 6) {
-                            echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key={$key}'<img width='450' height='450' src={$auxiliar_acessorios["img"]}></img></a></div>";
                         } else if ($i == 8) {
                             echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key={$key}'><img width='300' height='470' src={$auxiliar_acessorios["img"]}></img></a></div>";
                         } elseif ($i == 0) {
@@ -109,15 +107,16 @@ $sorter =  rand(1, 5);
         <div class="container-vendidos">
             <?php
             $j = 0;
-            foreach ($estoqueGeral as $key => $aux_blusas) {
-                if ($aux_blusas["categoria"] == "mais vendido") {
+            foreach ($estoqueGeral as $key => $maisVendidos) {
+                if ($maisVendidos["categoria"] == "mais vendido") {
                     if ($j <= 6) {
-
                         $j++;
                         if ($j == 3) {
-                            echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key={$key}'><img width ='330' height='450'src='{$aux_blusas['img']}'></a></div>";
+                            
+                            echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key={$key}'><img width='330' height='450' src='{$maisVendidos['img']}'></a></div>";
+                            
                         } else {
-                            echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key={$key}'><img width='200' height='200' src='{$aux_blusas['img']}'></a></div>";
+                            echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key={$key}'><img width='200' height='200' src='{$maisVendidos['img']}'></a></div>";
                         }
                     } else {
                         break;
@@ -159,7 +158,6 @@ $sorter =  rand(1, 5);
     </main>
 
     <footer>
-        <a href="../pagina2/recebido.php">ok</a>
         <p>© 2023 Venda de produtos. Todos os direitos reservados.</p>
     </footer>
     <script src="../script.js"></script>

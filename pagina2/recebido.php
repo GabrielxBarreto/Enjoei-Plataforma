@@ -49,6 +49,19 @@ if(isset($estoqueGeral[$indice])){
                 <div id="texto">
                     <h1><?=$itemSelect["nome"]?></h1>
                 </div>
+                <h3><?=$itemSelect["marca"]?></h3>
+                <br>
+                <?php
+                if($itemSelect["desconto"] != false){                
+                ?>
+                <h3 >R$ <del><?=number_format($itemSelect["preco"],2)?></del></h3>
+                <h2 id="preco">R$<?=number_format($itemSelect["desconto"],2)?></h2>
+''                <?php
+                }else{
+                ?>
+                <h2 id="preco">R$<?=number_format($itemSelect["preco"],2)?></h2>
+                <?php }?>
+
                 <p><?=$itemSelect["descricao"]?></p>
                 <div id="botoesPrincipais">
                     <button type="submit">Comprar</button>
@@ -62,8 +75,8 @@ if(isset($estoqueGeral[$indice])){
         <div id="aux">
             <div class="botao">
     
-                <button type="submit"><?=$itemSelect["marca"]?></button>
-                <button type="submit"><?=$itemSelect["pecasEmEstoque"]?></button>
+                <button type="submit">Marca<br><?=$itemSelect["marca"]?></button>
+                <button type="submit">Unidades<br><?=$itemSelect["pecasEmEstoque"]?></button>
             </div>
         </div>
     

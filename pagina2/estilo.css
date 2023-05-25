@@ -209,3 +209,8 @@ h2{
          width:60px;
          height:60px;
  }
+ #preco {
+        display: flex;
+        align-items: start;
+        justify-content: flex-start;
+}

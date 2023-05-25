@@ -31,7 +31,7 @@
     <div class="content">      
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">
-        <form method="post" action=""> 
+        <form method="post" action="../index.php"> 
           <h1>Login</h1> 
           <p> 
             <label for="nome_login">Seu nome</label>
@@ -49,7 +49,7 @@
           </p>
            
           <p> 
-            <input type="submit" value="Logar" /> 
+            <a href="../pagina1/index.php"><input type="submit" value="Logar" /></a> 
           </p>
            
           <p class="link">

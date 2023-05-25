@@ -296,7 +296,8 @@ body {
   }
 
   footer{
-    margin-top: 250px;
+    
+    margin-top: 50%;
     background-color: #333;
     font-size: 24px;
     text-align: center;

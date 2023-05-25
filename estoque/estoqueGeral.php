@@ -1,6 +1,6 @@
 <?php
 $estoqueGeral =  [
-    0 =>[
+    [
         "nome"=>"bracelete rígido pandora prata 925",
         "preco"=> 280.00,
         "desconto" => 252.00,
@@ -748,16 +748,6 @@ $estoqueGeral =  [
         "img" => "../img_produtos/calca_cargo.jpg",
         "marca" => "zara",
         "categoria" => "calcas"
-    ],
-    [
-        "nome"=>"Tênis Nike Air Force 1 Low",
-        "preco"=> 1199.99,
-        "desconto" => 1009.00,
-        "descricao" => "Tênis Casual Air Force 1 Em Couro Cor - Branco",
-        "pecasEmEstoque" => 245,
-        "img" => "../img_produtos/air_force1.jpg",
-        "marca" => "nike",
-        "categoria" => "sapato"
     ],
     [
         "nome"=>"Tênis Nike Air Max SC Masculino",
