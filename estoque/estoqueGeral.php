@@ -1538,5 +1538,256 @@ $estoqueGeral =  [
         "marca" => "-",
         "categoria" => "infantil"
     ],
+    [
+        "nome" => "PIERCING LOUISE PRATA",
+        "preco"=> 85.00,
+        "desconto" => 0,
+        "descricao"=>"Piercing fake prateado com zircônias cravejadas. Não é necessário ter furo para ser usado. Seu formato possui três bolinhas com mini zircônias cravejadas e uma maior localizada no centro. Uma jóia em forma de piercing fake! Ideal para chamar mais atenção ao rosto, porque ele não passará despercebido! Descer até a altura que fique firme e confortável. ",
+        "pecasEmEstoque" => 309,
+        "img" => "../img_produtos/PiercingLouisePrata.webp",
+        "marca" => "louise",
+        "categoria" => "brincos"
+    ],
+    [
+        "nome" => "Brinco em Formato de Olho Grego com Zircônia Verde folheado em ouro 18k",
+        "preco"=> 59.90,
+        "desconto" => 0,
+        "descricao"=>"Esse modelinho de brinco é maravilhoso, uma joia que além de linda traz consigo um olhar moderno e um lindo significado! Brinco em formato de olho grego composto por zircônia verde é lindíssimo, esbanjando brilho e beleza por todos os lugares. ",
+        "pecasEmEstoque" => 270,
+        "img" => "../img_produtos/brincoOlhoGrego.webp",
+        "marca" => "-",
+        "categoria" => "brincos"
+    ],
+    [
+        "nome" => "Brinco de argola fechada com pingente de ferradura folheado em ouro 18k",
+        "preco"=> 29.90,
+        "desconto" => 0,
+        "descricao"=>"Brincos são joias ideias para complementar ainda mais sua composição! Trazendo um olhar supermoderno e encantador sobre seu look. Brinco de argola fechada composto por um pingente de ferradura é lindíssimo!",
+        "pecasEmEstoque" => 450,
+        "img" => "../img_produtos/brincoFerradura.webp",
+        "marca" => "-",
+        "categoria" => "brincos"
+    ],
+    [
+        "nome" => "Brinco com zircônia azul e piercing fake folheado em ouro 18k",
+        "preco"=> 59.90,
+        "desconto" => 36.00,
+        "descricao"=>"Brinco com piercing fake é encantador! Um modelinho maravilhoso e ideal para deixar sua composição incrível! Um acessório perfeito que ocupa grande parte da orelha, sendo assim causa uma sensação de volume. Brinco composto por uma zircônia em formato redondo na cor azul é lindíssima, uma joia essencial para deixar seu visual moderníssimo",
+        "pecasEmEstoque" => 420,
+        "img" => "../img_produtos/brincoZirconiaazul.webp",
+        "marca" => "-",
+        "categoria" => "brincos"
+    ],
+    [
+        "nome" => "Kit de brincos com estrelas de zircônias folheado em ouro 18k",
+        "preco"=> 59.90,
+        "desconto" => 0,
+        "descricao"=>"Esse modelinho de kit de brincos tem uma beleza sensacional! São compostos por estrelas de zircônias e seus tamanhos aumentam do menor para o maior. Se você tem mais de um furo esses brinquinhos são ideais.",
+        "pecasEmEstoque" => 620,
+        "img" => "../img_produtos/brincoEstrela.webp",
+        "marca" => "-",
+        "categoria" => "brincos"
+    ],
+    [
+        "nome" => "Piercing com Folhas de Oliveira Cravejadas folheado em ródio branco",
+        "preco"=> 69.90,
+        "desconto" => 24.00,
+        "descricao"=>"Uma joia moderna e sofisticada, ideal para ser o acessório curinga em sua composição. Piercing composto por folhas de oliveira cravejadas é sensacional, seus detalhes são únicos e apaixonantes! ",
+        "pecasEmEstoque" => 130,
+        "img" => "../img_produtos/brincoFolhasdeOliveira.webp",
+        "marca" => "-",
+        "categoria" => "brincos"
+    ],
+    [
+        "nome" => "Piercing com Pérolas e Zircônias folheado em ouro 18k",
+        "preco"=> 69.90,
+        "desconto" => 0,
+        "descricao"=>"Feminilidade e delicadeza são duas palavras que definem essa joia! Perfeito para usar em ocasiões especiais e atrair todos os olhares, ou para transformar um look básico em um todo especial. ",
+        "pecasEmEstoque" => 330,
+        "img" => "../img_produtos/brincoPerolas.webp",
+        "marca" => "-",
+        "categoria" => "brincos"
+    ],
+    [
+        "nome" => "Pulseira Cravejada de Zircônia com Letra folheado em ouro 18k",
+        "preco"=> 99.90,
+        "desconto" => 0,
+        "descricao"=>"Pulseiras de letra são joias sensacionais e perfeitas para tornar sua composição ainda mais completa e apaixonante! Um acessório delicado e cheio de charme para você ficar ainda mais linda. ",
+        "pecasEmEstoque" => 330,
+        "img" => "../img_produtos/pulseiracomletra.webp",
+        "marca" => "-",
+        "categoria" => "pulseiras"
+    ],
+    [
+        "nome" => "Pulseira com pingente de coração com pedra natural azul folheado em ouro 18k",
+        "preco"=> 89.90,
+        "desconto" => 0,
+        "descricao"=>"Essa pulseira com certeza vai conquistar o seu coração! Sua combinação faz com que ela seja totalmente especial em todos os aspectos. A corrente fina é linda, o fecho tipo boia e a pedra natural azul que significa tranquilidade e harmonia fazem com que a joia seja incrível e tenha um brilho fora do comum. ",
+        "pecasEmEstoque" => 330,
+        "img" => "../img_produtos/pulseiracoracaoazul.webp",
+        "marca" => "-",
+        "categoria" => "pulseiras"
+    ],
+    [
+        "nome" => "Bracelete com Design de Cobra Texturizado e Cravejado folheado em Ródio Branco",
+        "preco"=> 169.90,
+        "desconto" => 0,
+        "descricao"=>"O nosso Bracelete com Design de Cobra Texturizado e Cravejado folheado em Ródio Branco é uma joia única e deslumbrante que oferece um toque de ousadia e elegância ao seu visual. Com um design inspirado em cobra, este bracelete possui uma textura sofisticada que se assemelha à pele de uma cobra real.",
+        "pecasEmEstoque" => 930,
+        "img" => "../img_produtos/pulseiracobra.webp",
+        "marca" => "-",
+        "categoria" => "pulseiras"
+    ],
+    [
+        "nome" => "Pulseira repleta de olho grego azul bic folheado em ródio branco",
+        "preco"=> 89.90,
+        "desconto" => 0,
+        "descricao"=>"Combinam com tudo e são perfeitos para o dia, lindo leve e versátil. Os acessórios de olho grego são místicos, deixe o olho gordo bem longe de Você!",
+        "pecasEmEstoque" => 930,
+        "img" => "../img_produtos/pulseiraolhogrego.webp",
+        "marca" => "-",
+        "categoria" => "pulseiras"
+    ],
+    [
+        "nome" => "Pulseira Riviera com Design de Gota Cravejada Zircônias Coloridas folheado em Ródio Branco",
+        "preco"=> 169.90,
+        "desconto" => 0,
+        "descricao"=>"Combinam com tudo e são perfeitos para o dia, lindo leve e versátil. Os acessórios de olho grego são místicos, deixe o olho gordo bem longe de Você!",
+        "pecasEmEstoque" => 930,
+        "img" => "../img_produtos/pulseirarivieira.webp",
+        "marca" => "-",
+        "categoria" => "pulseiras"
+    ],
+    [
+        "nome" => "Pulseira de Cordão Baiano em Ouro 18k",
+        "preco"=> 69.90,
+        "desconto" => 0,
+        "descricao"=>"A elegante Pulseira com Design Torcido Folheada em Ouro 18k é uma peça sofisticada que traz um toque de beleza e luxo para qualquer visual. Com um design torcido único e elegante, esta joia é perfeita para quem busca um estilo exclusivo e refinado.",
+        "pecasEmEstoque" => 230,
+        "img" => "../img_produtos/cordaobanhadoaouro.webp",
+        "marca" => "-",
+        "categoria" => "pulseiras"
+    ],
+    [
+        "nome" => "Mix de Anéis Cravejados de Zircônias folheado em ródio branco",
+        "preco"=> 199.90,
+        "desconto" => 0,
+        "descricao"=>"Mix de anéis cravejados de zircônias é inteiramente fabuloso! Traz consigo 2 tipos de anéis, sendo 1 anel solitário e 1 anel aparador, ambos inteiramente cravejados de zircônias. Ideal para usar em momentos especiais, ocasiões formais ou até mesmo em um aniversário. .",
+        "pecasEmEstoque" => 430,
+        "img" => "../img_produtos/anelcravejado.webp",
+        "marca" => "-",
+        "categoria" => "aneis"
+    ],
+    [
+        "nome" => "Anel com São Jorge Detalhado folheado em ouro 18k",
+        "preco"=> 79.90,
+        "desconto" => 0,
+        "descricao"=>"Anel com São Jorge Detalhado folheado em ouro 18k",
+        "pecasEmEstoque" => 430,
+        "img" => "../img_produtos/anelsaojorge.webp",
+        "marca" => "-",
+        "categoria" => "aneis"
+    ],
+    [
+        "nome" => "Mix de Anéis com Design Espiral folheado em ródio branco e ouro 18k",
+        "preco"=> 219.90,
+        "desconto" => 0,
+        "descricao"=>"Esse modelinho de mix traz consigo acessórios chave para completar seu look e te fazer arrasar ainda mais por onde for. Mix de anéis composto por design espiral é fabuloso! ",
+        "pecasEmEstoque" => 430,
+        "img" => "../img_produtos/anelespiral.webp",
+        "marca" => "-",
+        "categoria" => "aneis"
+    ],
+    [
+        "nome" => "Anel Falange com Pequenos Corações e Zircônias folheado em ouro 18k",
+        "preco"=> 49.90,
+        "desconto" => 0,
+        "descricao"=>"Anéis falanges são acessórios maravilhosos e perfeitos para deixar sua composição admirável! Seus detalhes proporcionam uma iluminação charmosa em seu look. Anel falange composto por pequenos corações e zircônias são apaixonantes!",
+        "pecasEmEstoque" => 430,
+        "img" => "../img_produtos/anelfalange.webp",
+        "marca" => "-",
+        "categoria" => "aneis"
+    ],
+    [
+        "nome" => "Anel Falange com Detalhes em Zircônia folheado em ouro 18k",
+        "preco"=> 49.90,
+        "desconto" => 0,
+        "descricao"=>"Anéis falanges são joias estilosas e mega modernas! Trazem consigo um olhar delicado em sua composição e além de sua beleza carrega um charme elegantíssimo.",
+        "pecasEmEstoque" => 430,
+        "img" => "../img_produtos/anelfalangecomdetalhes.webp",
+        "marca" => "-",
+        "categoria" => "aneis"
+    ],
+    [
+        "nome" => "Anel Falange com Coração Vazado e Detalhes folheado em ouro 18k",
+        "preco"=> 49.90,
+        "desconto" => 0,
+        "descricao"=>"Anéis são joias incríveis e trazem consigo um olhar maravilhoso em sua composição! Além de serem delicadinhos, tornam sua composição moderna e encantadora.",
+        "pecasEmEstoque" => 230,
+        "img" => "../img_produtos/anelfalangecomcoracao.webp",
+        "marca" => "-",
+        "categoria" => "aneis"
+    ],
+    [
+        "nome" => "Anel solitário delicado com estrela de zircônia folheado em ródio branco",
+        "preco"=> 69.90,
+        "desconto" => 0,
+        "descricao"=>"Imagine um modelinho de anel perfeito e delicadíssimo! É esse anel solitário, ele traz consigo um olhar moderno e com muito brilho. Composto por uma pequena estrela de zircônia deixando a peça ainda mais leve e apaixonante.",
+        "pecasEmEstoque" => 530,
+        "img" => "../img_produtos/anelsolitario.webp",
+        "marca" => "-",
+        "categoria" => "aneis"
+    ],
+    [
+        "nome" => "Colar com Letra e Coração Liso folheado em ouro 18k",
+        "preco"=> 129.90,
+        "desconto" => 0,
+        "descricao"=>"Esse modelo de colar é uma delicadeza! Uma joia única e que traz muita personalidade para o seu look. Além de ser delicada dá pra fazer mixes deixando ainda mais destacável por onde passa!",
+        "pecasEmEstoque" => 530,
+        "img" => "../img_produtos/colarcoracaoeletra.webp",
+        "marca" => "-",
+        "categoria" => "colares"
+    ],
+    [
+        "nome" => "Colar Seja luz folheado em ouro 18k",
+        "preco"=> 89.90,
+        "desconto" => 0,
+        "descricao"=>"Colar maravilhoso e super apaixonante! Um modelinho feito especialmente para você que ama acessórios encantadores e que estão super em alta. Colar escrito Seja Luz é lindíssimo, e carrega consigo um significado único e especial! Joia de grande personalidade, deixando você ainda mais linda e iluminada. ",
+        "pecasEmEstoque" => 530,
+        "img" => "../img_produtos/colarsejaluz.webp",
+        "marca" => "-",
+        "categoria" => "colares"
+    ],
+    [
+        "nome" => "Colar com design de elos finos com fecho de coração vazado e letra de zircônia folheado em ouro 18k",
+        "preco"=> 119.90,
+        "desconto" => 0,
+        "descricao"=>"Colar com design de elos finos é incrível! Seus aspectos e detalhes atraem muitos olhares. Composto por um fecho de coração liso e vazado, ideal para dar um olhar romântico e moderno ao seu visual!",
+        "pecasEmEstoque" => 530,
+        "img" => "../img_produtos/colarcoracaovazado.webp",
+        "marca" => "-",
+        "categoria" => "colares"
+    ],
+    [
+        "nome" => "Colar de Letra com Zircônia Verde Quadrada folheado em ouro 18k",
+        "preco"=> 159.90,
+        "desconto" => 0,
+        "descricao"=>"Colar lindíssimo e ideal para você usar em ocasiões formais e informais! Afinal, você decide onde e quando deve ficar MA-RA-VI-LHO-SA. ",
+        "pecasEmEstoque" => 530,
+        "img" => "../img_produtos/colarcuboverde.webp",
+        "marca" => "-",
+        "categoria" => "colares"
+    ],
+    [
+        "nome" => "Colar de letra cravejado de zircônia e pontos de luz folheado em ouro 18k",
+        "preco"=> 129.90,
+        "desconto" => 0,
+        "descricao"=>"Esse colar de letras é ma-ra-vi-lho-so! Composto por uma corrente de bolinhas que deixa a peça com um visual mais chamativo, como pingentes uma pequena letra toda cravejada de zircônia, no meio de dois pontos de luz, um sonho!",
+        "pecasEmEstoque" => 530,
+        "img" => "../img_produtos/colarpontosdeluz.webp",
+        "marca" => "-",
+        "categoria" => "colares"
+    ],
+
 ]
 ?>
