@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family= Playfair + Display:ital@1 & display=swap');
+/* Importação*/
+
 *{
     margin: 0;
     padding: 0;
@@ -286,6 +289,9 @@ section{
     margin: 0;
     font-size: 18px;
     color: #333;
+    /* Importação 1*/
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
 }
 
 .product p {
@@ -318,7 +324,10 @@ box-sizing: border-box;
     font-size: 24px;
     color: #333;
     text-align: center;
+    
+     /*importação 2 */
     font-size: 80px;
+    font-family: 'Playfair Display', serif;
 }
 
 footer {margin-top: 500px;
@@ -356,6 +365,9 @@ h1{
     font-size: 100px;
     color: #333;
     text-align: center;
+     /*importação 5*/
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
 }
 
 /* atualização*/
@@ -382,7 +394,10 @@ box-sizing: border-box;
     font-size: 24px;
     color: #333;
     text-align: center;
+   
+      /* importação 3*/
     font-size: 80px;
+    font-family: 'Playfair Display', serif;
 }
 .container-vendidos{
     display: grid;
@@ -530,7 +545,10 @@ box-sizing: border-box;
     font-size: 24px;
     color: #333;
     text-align: center;
+    
+     /* importação 4*/
     font-size: 80px;
+    font-family: 'Playfair Display', serif;
 }
 #pesquisaTitle{
     text-align: left;
