@@ -17,6 +17,8 @@ if(!isset($_GET["item"])){
     <title> resultados para: <?=$itemPesquisado?></title>
     <link rel="stylesheet" href="estilo.css">
     <style>
+       @import url('https://fonts.googleapis.com/css2?family= Playfair + Display:ital@1 & display=swap');
+        
         *{
             margin: 0;
             padding: 0;
@@ -30,6 +32,10 @@ if(!isset($_GET["item"])){
         display: flex;
 
     }
+        section h1{
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+}
     .resultado-container {
   display: flex;
   flex-wrap: wrap;
@@ -89,6 +95,7 @@ box-sizing: border-box;
     color: #333;
     text-align: center;
     font-size: 80px;
+      font-family: 'Playfair Display', serif;
 }
 #otherProducts{
     margin-top: 20px;
