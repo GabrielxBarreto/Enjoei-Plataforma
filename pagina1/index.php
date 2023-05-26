@@ -178,13 +178,24 @@ $sorter =  rand(1, 5);
                 <p> INFANTIL</p>
         </div>
         <div class="infantil-container"> 
-        <div class="item-01"> item1</div>
-        <div class="item-02"> item2</div>
-        <div class="item-03"> item3</div>
-        <div class="item-04"> item4</div>
-        <div class="item-05"> item5</div>
-        <div class="item-06"> item6</div>
-        <div class="item-07"> item7</div>
+        <?php
+            $w = 0;
+
+            foreach ($estoqueGeral as $key => $aux_blusas) {
+                if ($aux_blusas["categoria"] == "infantil") {
+                    if ($w < 7) {
+
+                        $w++;
+                        if ($w == 3) {
+                            echo "<div class='item{$w}'><a href='../pagina2/recebido.php?key={$key}'><img width ='330' height ='490' src='{$aux_blusas['img']}'> </a></div>";
+                        }else{
+                            echo "<div class='item{$w}'><a href='../pagina2/recebido.php?key={$key}'><img width ='230' height ='230' src='{$aux_blusas['img']}'> </a></div>";
+                        }
+                }
+            }
+        }
+
+            ?>
     </div>
     </main>
 
