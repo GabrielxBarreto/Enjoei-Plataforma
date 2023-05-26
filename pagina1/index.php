@@ -173,6 +173,19 @@ $sorter =  rand(1, 5);
 
             ?>
         </div>
+         </div>
+            <div class="infantil"> 
+                <p> INFANTIL</p>
+        </div>
+        <div class="infantil-container"> 
+        <div class="item-01"> item1</div>
+        <div class="item-02"> item2</div>
+        <div class="item-03"> item3</div>
+        <div class="item-04"> item4</div>
+        <div class="item-05"> item5</div>
+        <div class="item-06"> item6</div>
+        <div class="item-07"> item7</div>
+    </div>
     </main>
 
     <footer>
