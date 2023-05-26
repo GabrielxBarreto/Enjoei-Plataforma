@@ -130,7 +130,7 @@ box-sizing: border-box;
                 <input required name="item" type="text" placeholder="Pesquisar">
                 <button type="submit">Buscar</button>
             </form>
-            <a href="#"><img id="conta" src="../assets/usuarioicone.png" alt="userIcon" srcset=""></a>
+            <a href="../cadastro/cadastro.php"><img id="conta" src="../assets/usuarioicone.png" alt="userIcon" srcset=""></a>
             <a href="#"><img id="conta" src="../assets/roupaicon.png" alt="userIcon" srcset=""></a>
             <a href="#"><img id="conta" src="../assets/simbolocompras.png" alt="userIcon" srcset=""></a>
         </nav>
