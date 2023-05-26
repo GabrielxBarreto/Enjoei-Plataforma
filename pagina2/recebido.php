@@ -21,7 +21,7 @@ if(isset($estoqueGeral[$indice])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?=$itemSelect["nome"]?></title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="icon" type="image/png" href="../assets/breshoplogo.png"/>
 </head>
@@ -92,19 +92,18 @@ if(isset($estoqueGeral[$indice])){
     <div class="flex-container">
     <?php
     $i = 0;
-        foreach($itemSelect as $key => $value){
-            if($value["categoria"]==$estoqueGeral[0]["categoria"]){
-                $i ++;
-                var_dump($i);
+        foreach($estoqueGeral as $key => $estoqueGeral){
+         $i++;   
+         if($i % 2 == 0 ){
     ?>
     
         <div class="grid-item"> 
-            <a href="http://"><img src="" alt="" srcset=""></a>
+            <a href="recebido.php?key=<?=$key?>"><img width="180" height="180"src="<?=$estoqueGeral["img"]?>" alt="venda de produtos" srcset=""></a>
         </div>
         
     
     <?php
-            }
+    }
         }
     ?>
     </div>

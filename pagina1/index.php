@@ -83,14 +83,14 @@ $sorter =  rand(1, 5);
                             echo "
                                     <div class='grid-item grid-item{$i}'>
                                     <a href='../pagina2/recebido.php?key={$key}'> 
-                                        <img width='470' height='470' src={$auxiliar_acessorios["img"]}>
+                                        <img width='490' height='490' src={$auxiliar_acessorios["img"]}>
                                             <div class='grid-item-preco'>
                                                R$ {$precoFormat}
                                             </div>
                                     </div>
                                 </a>";
                         } else if ($i == 8) {
-                            echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key={$key}'><img width='350' height='470' src={$auxiliar_acessorios["img"]}></img></a></div>";
+                            echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key={$key}'><img width='360' height='500' src={$auxiliar_acessorios["img"]}></img></a></div>";
                         } elseif ($i == 0) {
                         } else if ($i != 3 && $i != 6 && $i != 8) {
                             echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key={$key}'><img width='230' height='230' src={$auxiliar_acessorios["img"]}></img></a></div>";
@@ -123,10 +123,10 @@ $sorter =  rand(1, 5);
                         $j++;
                         if ($j == 3) {
                             
-                            echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key={$key}'><img width='330' height='450' src='{$maisVendidos['img']}'></a></div>";
+                            echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key={$key}'><img width='330' height='500' src='{$maisVendidos['img']}'></a></div>";
                             
                         } else {
-                            echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key={$key}'><img width='200' height='200' src='{$maisVendidos['img']}'></a></div>";
+                            echo "<div class='item{$j}'><a href='../pagina2/recebido.php?key={$key}'><img width='235' height='235' src='{$maisVendidos['img']}'></a></div>";
                         }
                     } else {
                         break;

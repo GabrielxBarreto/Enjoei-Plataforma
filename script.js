@@ -9,4 +9,4 @@ function carrosel(){
     MARCA.innerHTML = `${listaDeMarcas[i]}`;
     i++;
 }
-setInterval(carrosel,1800);
+setInterval(carrosel,2800);

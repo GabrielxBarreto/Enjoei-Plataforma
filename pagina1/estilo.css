@@ -79,7 +79,7 @@ form button{
     color: #333;
     font-size:30px ;
     position: absolute;
-    width:450px;
+    width:470px;
     height:50px;
     background-color: rgba(255,255,255,.5);
     bottom:30px;
@@ -255,7 +255,7 @@ nav {
     padding: 6px;
     border: none;
     border-radius: 10px;
-    width: 250px;
+    width: 350px;
 }
 
 .search-form button {
@@ -382,6 +382,7 @@ h1{
     padding-top:70px;
     padding-bottom:70px;
     margin:50px; /* Margens laterais */
+    box-shadow:20px 20px 20px #333 ;
 }
 
 .marca-elementos h3 {

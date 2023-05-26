@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family= Playfair + Display:ital@1 & display=swap');
 /* Importação*/
 
-
-
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,15 +12,15 @@ body {
      }
 
      header {
-       background: linear-gradient(#ffe4c4, #c6b792, #c6b792);
-        padding: 10px;
+        background: linear-gradient(#ffe4c4, #c6b792, #c6b792);
+        padding: 5px;
         width: 100%;
         box-sizing: border-box;
         display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 3;
-    margin-bottom:50px;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+        margin-bottom:50px;
 
     }
        
@@ -35,7 +33,7 @@ body {
             padding: 10px 20px;
 
         }
-    
+
         #conta{
             transition: all ease-in .25s;
             margin-left: 200px;
@@ -47,20 +45,21 @@ body {
                   }
         
                 .search-form input[type="text"] {
+                  width:264px;
                     padding: 6px;
                     border: none;
                     border-radius: 10px;
-                    font-family: FreeMono, monospace;
+                    
                 }
         
                 .search-form button {
-                    padding: 6px 10px;
+                    padding: 0px 8px;
                     border: none;
                     border-radius: 10px;
                     color: #fff;
                     margin-left: 8px;
                     background-color: #333;
-                    font-family: FreeMono, monospace;
+                   
                 }
         
                 #logo{
@@ -80,11 +79,9 @@ body {
     margin:0;
     padding:0;
     font-family: Arial,sans-serif;
+    box-sizing: border-box;
   }
-  
-  body{
-    margin:10px;
-  }
+
   
   a{
     text-decoration: none;
@@ -202,7 +199,7 @@ body {
     color: #1d1b1b;
     left: 0px;
     height: 20px;
-    width: 440px;
+    width: 429px;
     padding: 17px 30px 20px 30px;
     font-size: 16px;
     text-align: right;
@@ -322,5 +319,4 @@ body {
     text-align: center;
     color: #fff;
     padding: 20px;
-    font-family: OCR A Std, monospace;
 }

@@ -33,9 +33,11 @@ if(!isset($_GET["item"])){
         display: flex;
 
     }
-        section h1{
+    section h1{
     font-family: 'Playfair Display', serif;
     font-size:30px;
+
+    padding-top:250px ;
 }
     .resultado-container {
   display: flex;
@@ -132,12 +134,12 @@ box-sizing: border-box;
             <a href="#"><img id="conta" src="../assets/roupaicon.png" alt="userIcon" srcset=""></a>
             <a href="#"><img id="conta" src="../assets/simbolocompras.png" alt="userIcon" srcset=""></a>
         </nav>
-    </header><br><br><br><br><br><br><br><br><br><br>
+    </header>
     
     
     <section>
         <br>
-        <h1 id="pesquisaTitle">Você Pesquisou por:<?=$itemPesquisado?> </h1>
+        <i><h1 id="pesquisaTitle">Você Pesquisou por: <?=$itemPesquisado?> </h1></i>
     </section>
     <div class="resultado-container">
         <?php
