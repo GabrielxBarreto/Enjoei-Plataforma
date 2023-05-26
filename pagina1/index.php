@@ -8,10 +8,11 @@ $sorter =  rand(1, 5);
 <html lang="pt-br">
 
 <head>
+<link rel="icon" type="image/png" href="../assets/breshoplogo.png"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venda de produtos</title>
+    <title>Breshop - Venda de produtos</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
@@ -41,8 +42,7 @@ $sorter =  rand(1, 5);
         <h2>OFF</h2>
     </div>
     <div class="textopromocional">
-        Temos descontos de até 95% <br>na black-Friday!<br>
-        aproveite nossos produtos <br>com o selo de qualidade breshop.
+        
     </div>
     </div>
     <br>
@@ -83,7 +83,7 @@ $sorter =  rand(1, 5);
                             echo "
                                     <div class='grid-item grid-item{$i}'>
                                     <a href='../pagina2/recebido.php?key={$key}'> 
-                                        <img width='450' height='450' src={$auxiliar_acessorios["img"]}>
+                                        <img width='470' height='470' src={$auxiliar_acessorios["img"]}>
                                             <div class='grid-item-preco'>
                                                R$ {$precoFormat}
                                             </div>
@@ -93,7 +93,7 @@ $sorter =  rand(1, 5);
                             echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key={$key}'><img width='350' height='470' src={$auxiliar_acessorios["img"]}></img></a></div>";
                         } elseif ($i == 0) {
                         } else if ($i != 3 && $i != 6 && $i != 8) {
-                            echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key={$key}'><img width='200' height='200' src={$auxiliar_acessorios["img"]}></img></a></div>";
+                            echo "<div class='grid-item{$i}'><a href='../pagina2/recebido.php?key={$key}'><img width='230' height='230' src={$auxiliar_acessorios["img"]}></img></a></div>";
                         }
                         $i++;
                     } else {

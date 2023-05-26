@@ -11,6 +11,7 @@ if(!isset($_GET["item"])){
 <html lang="pt-br">
 
 <head>
+<link rel="icon" type="image/png" href="../assets/breshoplogo.png"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,6 +90,12 @@ box-sizing: border-box;
 .recomendados02:hover {
     box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.2);
 }
+#erro{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .recomendados02  p {
     margin: 0;
     font-size: 24px;
@@ -134,7 +141,7 @@ box-sizing: border-box;
     </section>
     <div class="resultado-container">
         <?php
-
+        if(true){
         if($itemPesquisado == "Sapato"||$itemPesquisado == "sapato"||$itemPesquisado == "Sapatos"||$itemPesquisado == "sapatos"|| $itemPesquisado == "calçados" || $itemPesquisado == "calcados" || $itemPesquisado =="Calcados" || $itemPesquisado == "Sandalhas"){
             foreach($estoqueGeral as $key => $value){
                 if($value["categoria"]== "sapato"){
@@ -155,6 +162,12 @@ box-sizing: border-box;
                 }
             }
         }elseif($itemPesquisado == "Blusas" || $itemPesquisado == "blusas" || $itemPesquisado == "Blusa"|| $itemPesquisado == "Blusa"||$itemPesquisado == "Camisa" || $itemPesquisado == "Camisas" || $itemPesquisado == "camisa" || $itemPesquisado == "camisas"){
+            foreach($estoqueGeral as $key => $value){
+                if($value["categoria"]== "blusa"){
+                echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
+            }
+        }
+        }elseif($itemPesquisado == "Infantil" || $itemPesquisado == "infantil" || $itemPesquisado == "infantis"|| $itemPesquisado == "criança"||$itemPesquisado == "Criança" || $itemPesquisado == "bebê" || $itemPesquisado == "infanto-juvenil" || $itemPesquisado == "kids"){
             foreach($estoqueGeral as $key => $value){
                 if($value["categoria"]== "blusa"){
                 echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'  src='{$value["img"]}'></div></a>";
@@ -192,6 +205,9 @@ box-sizing: border-box;
             }
             }
         }
+    }else{
+        echo "<div id='erro'>Nada encontrado :/ </div>";
+    }
     ?>
     
 
@@ -201,7 +217,7 @@ box-sizing: border-box;
             
     </div>
     <div class="recomendados02">
-        <p>RECOMENDADOS</p>
+        <p>Feed Post</p>
     </div>
         <div id="otherProducts">   
         <?php

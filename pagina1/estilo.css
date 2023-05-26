@@ -209,7 +209,7 @@ grid-row: 4/5;
 .banner-content{
     
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -219,7 +219,7 @@ grid-row: 4/5;
 .textopromocional{
     margin-top: 200px;
     font-size: 36px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .banner{
     max-width: 50%;
