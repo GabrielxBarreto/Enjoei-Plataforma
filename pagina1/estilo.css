@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     
     font-family: Arial, sans-serif;
@@ -207,20 +206,36 @@ grid-row: 3/5;
    grid-column:3/4;
 grid-row: 4/5; 
 }
+.banner-content{
+    
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.textopromocional{
+    margin-top: 200px;
+    font-size: 36px;
+    margin-left: 10px;
+}
 .banner{
+    max-width: 50%;
+    min-width: 20%;
     flex-direction: column;
     margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#banner_img{
-    width: 50%;
-}
+
 .banner h3{
     font-family: 'Playfair Display', serif;
 }
 .banner h2{
+    font-size: 170px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -264,7 +279,7 @@ main {
 .product {
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 70px;
+    padding: 80px;
     height:70px;
     width:70px;
      background: linear-gradient(#ffe4c4, #c6b792, #c6b792);
@@ -339,7 +354,7 @@ box-sizing: border-box;
     font-family: 'Playfair Display', serif;
 }
 
-footer {margin-top: 500px;
+footer {margin-top: 300px;
     background-color: #333;
     color: #fff;
     padding: 20px;

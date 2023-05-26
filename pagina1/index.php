@@ -15,7 +15,7 @@ $sorter =  rand(1, 5);
     <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body onload="carrosel()">
+<body onload="carrosel(), carroselDeDescontos()">
 
     <header>
         <nav>
@@ -33,13 +33,19 @@ $sorter =  rand(1, 5);
         </nav>
     </header>
     <br>
+    <div class="banner-content">
     <div class="banner">
-        <h3>PROMOÇÃO</h3>
+        <h3>PROMOÇÕES</h3>
         <br>
-        <br>
-        <h2><p id="desconto">%</p></h2>
+        <h2><p id="desconto">10%</p></h2>
         <h2>OFF</h2>
-    </div><br>
+    </div>
+    <div class="textopromocional">
+        Temos descontos de até 95% <br>na black-Friday!<br>
+        aproveite nossos produtos <br>com o selo de qualidade breshop.
+    </div>
+    </div>
+    <br>
 
     <section>
         <div class="product">
@@ -173,6 +179,7 @@ $sorter =  rand(1, 5);
         <p>© 2023 Venda de produtos. Todos os direitos reservados.</p>
     </footer>
     <script src="../script.js"></script>
+    <script src="../script2.js"></script>
 </body>
 
 </html>

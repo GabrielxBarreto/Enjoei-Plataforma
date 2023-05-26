@@ -166,6 +166,7 @@ box-sizing: border-box;
             $details_Nome = explode(" ", $value["nome"]);
             $details_Descricao = explode(" ", $value["descricao"]);
             if(true){
+                
                 for($i=0; $i<count($details_Nome); $i++){
                     if($itemPesquisado == $details_Nome[$i]){
                         echo "<a href='../pagina2/recebido.php?key={$key}'><div class='item001'><img width ='300' height='300'   src='{$value["img"]}'></div></a>";
