@@ -353,7 +353,16 @@ box-sizing: border-box;
     font-size: 80px;
     font-family: 'Playfair Display', serif;
 }
+::-webkit-scrollbar{
+    width: 15px;
 
+}
+::-webkit-scrollbar-thumb{
+    width: 15px;
+    height: 10px;
+    background-color: #333;
+
+}
 footer {margin-top: 300px;
     background-color: #333;
     color: #fff;

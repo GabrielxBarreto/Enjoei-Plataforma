@@ -87,18 +87,19 @@ if(isset($estoqueGeral[$indice])){
         }?>
     
 <br>
-    <h2 id="#h2inicial"> Produtos Relacionados</h2>
+    <h2 id="#h2inicial"> Você Também pode gostar</h2>
     <br>
     <div class="flex-container">
     <?php
     $i = 0;
-        foreach($estoqueGeral as $key => $estoqueGeral){
-         $i++;   
-         if($i % 2 == 0 ){
+        foreach($estoqueGeral as $key => $geral){
+         $i++;  
+         $variante = rand(4,10);
+         if($i % 2 == 0 && $i % $variante == 0 ){
     ?>
     
         <div class="grid-item"> 
-            <a href="recebido.php?key=<?=$key?>"><img width="180" height="180"src="<?=$estoqueGeral["img"]?>" alt="venda de produtos" srcset=""></a>
+            <a href="recebido.php?key=<?=$key?>"><img width="180" height="180"src="<?=$geral["img"]?>" alt="venda de produtos" srcset=""></a>
         </div>
         
     
@@ -110,36 +111,24 @@ if(isset($estoqueGeral[$indice])){
     <br>
     <h2>Outros produtos</h2>
     <div class="flex-container">
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
+    <?php
+    $z = 0;
+        foreach($estoqueGeral as $key => $geral){
+         $z++;  
+         $variante = rand(2,10);
+         if($z % 2 == 0 && $z % $variante == 0 ){
+    ?>
+    
+        <div class="grid-item"> 
+            <a href="recebido.php?key=<?=$key?>"><img width="180" height="180"src="<?=$geral["img"]?>" alt="venda de produtos" srcset=""></a>
+        </div>
+        
+    
+    <?php
+    }
+        }
+    ?>
         <!--<div class="grid-item"> </div>-->
-    </div>
-    <br>
-    <h2>Outros produtos</h2>
-    <div class="flex-container">
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"> </div>
-        <!--   <div class="grid-item"> </div>-->
     </div>
     <footer>
         © 2023 Venda de produtos. Todos os direitos reservados.
