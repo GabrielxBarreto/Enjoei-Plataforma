@@ -12,7 +12,7 @@ Vale lembrar que o projeto não possui fins lucrativos e apenas educacional.
 <p><b>Breshop</b>! o melhor site para vendas e lances de roupas, calçados, acessórios e muito mais.</p>
 <h3> Sobre o Desenvolvimento:</h3>
 <p>O projeto ainda está sendo desenvolvido. A primeira versão com
-  todas as páhinas será publicada no dia 23/05</p>
+  todas as páginas será publicada no dia 23/05</p>
 <h3>O que temos de novo?</h3>
 <ul>
 <li>barra de menus fixa (facilidade de navegação)</li>
